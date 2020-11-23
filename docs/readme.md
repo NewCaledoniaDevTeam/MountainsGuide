@@ -2,4 +2,4 @@
 
 This in guide you will find:
 
-* [Brewing Guide](docs/brew/readme.md)
+* [Brewing Guide](brew/readme.md)
