@@ -92,7 +92,7 @@ Base potions are potions without effects, brewed by adding a single base ingredi
 
 Effect potions are primarily created by adding an effective ingredient to an awkward potion, which is created by adding a nether wart to a water bottle. Certain effects require a potion to be corrupted by a fermented spider eye. The potion of weakness can additionally be created by simply adding a fermented spider eye to a water bottle.
 
-#### Postivie Effects
+#### Positive Effects
 
 ![positive_effects.png](images/positive_effects.png)
 
