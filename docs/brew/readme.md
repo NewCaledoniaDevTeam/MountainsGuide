@@ -102,7 +102,7 @@ Effect potions are primarily created by adding an effect ingredient to an awkwar
 
 #### Mixed Effects
 
-IMAGE
+![mixed_effects.png](images/mixed_effects.png)
 
 ### Cure Potions
 
