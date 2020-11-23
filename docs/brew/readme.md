@@ -98,7 +98,7 @@ Effect potions are primarily created by adding an effect ingredient to an awkwar
 
 #### Negative Effects
 
-IMAGE
+![negative_effects.png](images/negative_effects.png)
 
 #### Mixed Effects
 
