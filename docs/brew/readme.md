@@ -110,7 +110,7 @@ Cures (Medicine) are brewed from awkward potions using certain elements. These r
 
 #### Recipes and Effects
 
-IMAGE
+![cure_potions.png](images/cure_potions.png)
 
 ### Summary Recipes
 
