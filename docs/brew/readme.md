@@ -114,4 +114,4 @@ Cures (Medicine) are brewed from awkward potions using certain elements. These r
 
 ### Summary Recipes
 
-IMAGE
+![summary_recipe.png](images/summary_recipe.png)
