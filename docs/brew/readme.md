@@ -14,7 +14,7 @@ This guide was made in order to help you how to brew potions in Minecraft, it ca
 
 #### Brewing Stand Interface
 
-IMAGE
+![brewing_stand_ui](images/brewing_stand_ui.png)
 
 By placing one or more bottles in the lower three slots of the brewing interface, an ingredient in the upper slot, and blaze powder in the fuel slot, you can distill the ingredient into each bottle and brew potions which may be consumed to grant an effect to the player.
 
