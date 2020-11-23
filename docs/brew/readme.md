@@ -28,7 +28,7 @@ Each piece of blaze powder used provides fuel for brewing 20 batches of potions.
 
 ### Brewing Equipment
 
-IMAGE
+![brewing equipment](images/brewing_equipments.png)
 
 #### Uses
 
@@ -111,8 +111,6 @@ Cures (Medicine) are brewed from awkward potions using certain elements. These r
 #### Recipes and Effects
 
 IMAGE
-
-If you want to learn more everything about [**Chemistry**](https://example.com) in Minecraft check out the other guide.
 
 ### Summary Recipes
 
