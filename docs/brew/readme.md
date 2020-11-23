@@ -50,7 +50,7 @@ Modifiers are ingredients used to alter the properties of a potion, or to change
 
 The picture below show the result of certain item when brew with water bottle and its modifier effect. The third row is the result and last row is modifier effect.
 
-IMAGE
+![result_and_effect.png](images/result_and_effect.png)
 
 #### Corrupting Effect
 
