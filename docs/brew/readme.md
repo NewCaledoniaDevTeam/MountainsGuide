@@ -115,3 +115,5 @@ Cures (Medicine) are brewed from awkward potions using certain elements. These r
 ### Summary Recipes
 
 ![summary_recipe.png](images/summary_recipe.png)
+
+You can download an pdf version of just the brewing guide [here](https://newcaledoniadevteam.github.io/MountainsGuide/brew/Brew%20Guide.pdf)
