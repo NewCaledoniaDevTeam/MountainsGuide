@@ -32,15 +32,15 @@ Each piece of blaze powder used provides fuel for brewing 20 batches of potions.
 
 #### Uses
 
-Brewing Stand - Used to add ingredients into water bottle/s.
+- Brewing Stand - Used to add ingredients into water bottle/s.
 
-Cauldron - Used for holding water. Can be fully filled with 1 water bucket or three water bottles. It can fill three glass bottles.
+- Cauldron - Used for holding water. Can be fully filled with 1 water bucket or three water bottles. It can fill three glass bottles.
 
-Blaze Powder - It is needed to fuel the brewing stand.
+- Blaze Powder - It is needed to fuel the brewing stand.
 
-Glass Bottle - Container for all kinds of potions.
+- Glass Bottle - Container for all kinds of potions.
 
-Water Bottle - The starting base for all potions, made by filling a glass bottle from a cauldron or water block.
+- Water Bottle - The starting base for all potions, made by filling a glass bottle from a cauldron or water block.
 
 ### Brewing Ingredients
 
