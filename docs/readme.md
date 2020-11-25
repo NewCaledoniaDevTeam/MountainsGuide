@@ -1,4 +1,4 @@
-# Mountain Top's Guide
+# The Mountain's Guide
 
 This in guide you will find:
 
