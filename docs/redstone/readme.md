@@ -137,4 +137,19 @@ IMAGE
 - **Block of Gold** represents as generic opaque block which are required by the contraption. It can be replaced by any opaque block which are required by the contraption. It can be replaced by any opaque blocks except falling blocks and/or non-movable blocks.
    - Translucent Block of Gold shows what's beneath or what's beyond in this block.
 - The colored blocks except for light blue shows the input and output location of the contraption.
-- **Red** 
+- **Red** is for Input, **Pink** for secondary Input, and **Lime** is for Output. These maybe labelled differently if there is more than one input or output.
+   - The secondary Input (Pink) may had had a different purpose depending on the ciruit, what will be mentioned in that section.
+- A components with arrow shows it's direction where this block is facing at, a hopper with arrow shows where it is connected, if they are already visible where they are facing or already obvious if doesn't need to have an arrow anymore.
+- **Blue** Block is the border of contraption, it doesn't need in contraption, just showing it's dimension. It doesn't need to replace with any block or require to be there.
+
+## Redstone Components
+
+### Tranmission Components
+
+Transmission components propagate signals and pluses from power components to mechanism components. Complex effects can also be produced by allowing a signal to affect itself or its ciruit.
+
+#### Redstone Dust
+
+The easy way to understand how redstone dust work is simply just like as wire in real life. From the source wire is need to connect to bulb to turn it on. Redstone dust works exactly like this, from the source of redstone signals (see Power Components section), you will need to connect signals from power components to mechanism components to make them act or toggle..
+
+Redstone are came from redstone ore when mined and it called redstone dust (also known as redstone wire) when it placed on the ground. So the redstone is item and redstone dust is a block.
