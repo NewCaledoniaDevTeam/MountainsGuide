@@ -70,3 +70,71 @@ Some example of circuits in this guide might be used by themselves for simple co
 #### Size
 
 Size describes ciruit size (the volume of the rectangular solid it occupies) with the notation of the shorter width, longer length and height, including support/floor blocks, but not including inputs/outputs.
+
+Another method used for describing ciruit size in the Minecraft commmunity is to ignore non-redstone blocks simply used for support (for example, blocks under redstone dust or repeaters). However, this method is unable to distingush between flat and 1-high circuits, as well as some other circuits differences. But in this guide it describe the size of which includes suppport blocks.
+
+Sometimes it is convenient to compare ciruits simply by the area of their footprint (e.g., 3X4 for a circuit three block wide by four blocks long), or by a single dimension important in a particular context (e.g., length in a sequence of sub-circuits, height in a confined space, etc.).
+
+#### 1-High
+
+A structure is 1-high (aka "1-tall") if its vertical dimension is one high (meaning it can not have any redstone componets that require support blocks below them, such as redstone dust or repeaters). Also see flat.
+
+#### Flat
+
+A structure is flat if it generally can be laid out on the ground with no components above another (support blocks under redstone components are okay). Flat structures are often easier for beginners to understand and build, and fit nicely under floors or on top of roofs. Also see 1-high.
+
+#### Hipster
+
+A structure is hipster if no redstone components are visble both before and after it completes its task (but it's okay if some are visible during operation). Also see flush and seamless.
+
+#### Instant
+
+A structure is instant if its output responds immediatley to its input (a circuit delay of 0 ticks).
+
+#### Seamless
+
+A structure is seamless if it is initially hidden behind a flat wall, floor, or ceiling and can still provide utility to the other side. Seamless is a desirable design goal for piston-extenders, piston door, etc. Also see flush and hipster.
+
+#### Stackable
+
+A structure is stackable if it can be placed directly next to other copies of itself, and they all controlled as a single unit. Also see tileable.
+
+#### Tileable
+
+A structure is tileable if it can be placed directly next to other copies of itself, and each copy can still be controlled indepently. Also see stackable.
+
+Structures might be described as "2- wide titleable" (tileable every two spaces in one dimenosion), or "2X4 tileable" (tile in two directions), etc. Some structures might be describe as **alternating tileable**, meaning they can be placeed next to each other if every other one is flipped or a slightly different design.
+
+#### Other
+
+Other design goals may include reducing the delay a sub-ciruit adds to a larger circuit, reducing the use of resource-expensive components (redstone, nether quartz, etc.), and re-arranging or redesigning a ciruit to make it small as possbile.
+
+### Redstone
+
+#### Redstone Components
+
+Redstone Components are the blocks used to build redstone structures, such as Transmission Components, Power Componets, Mechanism Compnents including Mobile Components and Miscellaneous Components, these are every items/blocks use in redstone structure.
+
+#### Redstone Contraption
+
+These are the basic, modular parts which can be combined to form any complex mechanism, these are already redstone structure but it's just some part of the mechanism, for example is circuit it doesn't do anything yet combining it into another redstone structures.
+
+#### Redstone Mechanism
+
+Mechanisms are complex system of blocks used to perform certain tasks, such as opening a door from afar or revealing a hidden staircase. These systems are built from simple components and normall involve some kind of user input, such as breaking a torch, which generates some kind of result, like a door being revealed. Mechanisms can range from simple switches that open and close doors from a safe distance, to complex devices such as combination locks that prevent intruders from entering your fort.
+
+### Block Label
+
+This section gives a basic overview of the new style of redstone schematics. These schematics represent a block uses in tutorial. Contraption represented in different blocks, allowing you to easily understand it.
+
+Most blocks in a redstone ciruit are **generic**, in that any of serveral solid blocks will do. Therefore, they are shown as blocks chosen for visibility, rather than what you'd normally choose to build a constraption.
+
+#### Block Label
+
+IMAGE
+
+- **Block of Quartz** is the ground of constrapation, here where contraption is placed.
+- **Block of Gold** represents as generic opaque block which are required by the contraption. It can be replaced by any opaque block which are required by the contraption. It can be replaced by any opaque blocks except falling blocks and/or non-movable blocks.
+   - Translucent Block of Gold shows what's beneath or what's beyond in this block.
+- The colored blocks except for light blue shows the input and output location of the contraption.
+- **Red** 
