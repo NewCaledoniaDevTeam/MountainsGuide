@@ -153,3 +153,21 @@ Transmission components propagate signals and pluses from power components to me
 The easy way to understand how redstone dust work is simply just like as wire in real life. From the source wire is need to connect to bulb to turn it on. Redstone dust works exactly like this, from the source of redstone signals (see Power Components section), you will need to connect signals from power components to mechanism components to make them act or toggle..
 
 Redstone are came from redstone ore when mined and it called redstone dust (also known as redstone wire) when it placed on the ground. So the redstone is item and redstone dust is a block.
+
+Redstone signal can reach up to 15 blocks long from the source, while it's farer from source, signal, or power of redstone is lower or weaker.
+
+#### Redstone Repeater
+
+Redstone Repeaters can extend the current of a redstone dust beyond the 15 blocks limit, this makes a weaker signal turn into a strongest signal. It can also use to delay, the minium is 1 tick and maximum of 4 ticks. The more ticks the more delay is, 1 ticks is equal to 0.1 second delay.
+
+See the picture below the model of repeater.
+
+IMAGE
+
+Redstone Repeater has secondary function which you can lock the repeater, can be done using two repeaters. If you place a repeater facing at side input repeater will locked. A locked repeater can not change its state. See picture below.
+
+IMAGE
+
+In picture A the input is ON and it's work as normal, when its side input is turn ON the repeater will lock as you can see in picture B the repeater has dark line that replace the adjustable small torch in it symbolizes that repeater is locked. So now it is lock the states of a repeater can not be change, in picture C you can see its input is already OFF but the output stays ON. In picture D both side input are OFF and when you ON its side input first (see picture E) it's output will stay OFF and when you ON its side Input is ON or not. As you can see in Picture F the output is OFF even its input is ON because repeater is off when it was lock.
+
+*Note: On the side input of Redstone Repeater can only accept is the power of Redstone Repeater only to lock it*
