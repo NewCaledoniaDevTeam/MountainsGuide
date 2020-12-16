@@ -171,3 +171,21 @@ IMAGE
 In picture A the input is ON and it's work as normal, when its side input is turn ON the repeater will lock as you can see in picture B the repeater has dark line that replace the adjustable small torch in it symbolizes that repeater is locked. So now it is lock the states of a repeater can not be change, in picture C you can see its input is already OFF but the output stays ON. In picture D both side input are OFF and when you ON its side input first (see picture E) it's output will stay OFF and when you ON its side Input is ON or not. As you can see in Picture F the output is OFF even its input is ON because repeater is off when it was lock.
 
 *Note: On the side input of Redstone Repeater can only accept is the power of Redstone Repeater only to lock it*
+
+#### Redstone Comparator
+
+A redstone comparator is the most complicated redstone components, it has four uses. The use of it are to maintain signal strength, to compare signal strength, to subtract signal strength, and to measure certain block states (primarily the fullness of containers).
+
+The redstone comparator has a front and a back, the arrow on the top of the comparator points to the front. When placed, the comparator will face away from the player. The comparator has two little redstone torches at the back (input) and one at the front (output). The front torch has two states which can be toggled to switch between states.
+
+IMAGE
+
+First State: If redstone torch is off, redstone comparator is in "Comparison Mode".
+
+Second State: If redstone torch is on, redston comparator is in "Substraction Mode".
+
+##### Maintain Signal Strength
+
+A redstone comparator with no powered side inputs will simply, output the same signal strength as its rear input. If weak signal that was sent to the rear of redstone comparator it's output is also weak as same strength as its input.
+
+##### Compare Signal Strength
