@@ -189,3 +189,50 @@ Second State: If redstone torch is on, redston comparator is in "Substraction Mo
 A redstone comparator with no powered side inputs will simply, output the same signal strength as its rear input. If weak signal that was sent to the rear of redstone comparator it's output is also weak as same strength as its input.
 
 ##### Compare Signal Strength
+
+If torch in front is off, a redstone comparator is in comparison mode. Redstone Cimprartor in comparison mode will compare rear input to its two side inputs. If comparator output turns off. If neither side input is greater than the rear input, the comparator simply outputs the same strength as its rear input. (see image below)
+
+IMAGE
+
+- In the First Sample: B redstone signal is stronger than A therefore there is no output, C is off.
+- In the Second Sample: B redstone signal is weaker than A therefore there is output, C is on. It's output is the same strength to it's rear input
+
+##### Subtracting signal strength
+
+If torch is front is on, a redstone comparator is in substraction mode. Redstone Comparator in subtraction mode will subtract the signal strength of the highest side input from the signal strength of the rear input (minimum 0 signal strength).
+
+The signal strength in input minus from signal strength in side input, the answer is the amount of signal strength of output.
+
+##### Measure Blocks State
+
+A redstone comparator will treat certain blocks behind it as power sources and output a signal strength proportional to the block's state. The comparator may be separated from the measure block by an opaque block.
+
+**Containers** - A redstone comparator used to measure the state of a container outputs a signal strength in proportion to how full the container is. The more items inside the strongest the output signal is.
+
+**Cauldron** - A cauldron outputs different signal strengths depending on how muchh water is inside. From completely empty to completely full, the outputs values are 0, 1, 2, and 3. If fill with lava output is level 3, though the lava in cauldron is always full can't partially taken unlike water.
+
+**Cake** - A cake outputs a signal strength relatice to the amount of cake remainging. Each slice is worth 2 signal strength, with 7 total slices, for an output of 14 for a full cake.
+
+**Jukebox** - A jukebook outputs a signals strength which indicates which record is currently playing. For whioc records produces which signal strengths. Each disc has an equivalent of different signal strength.
+
+**End Portal Frame** - An end portal frame outputs a full signal of 15 if it contains an eye of ender and zero otherwise.
+
+**Item Frame** - A comparartor can measure the state of an item frame's contents. In order for a comparator to measure an item frame's contents, it must be placed behind the block the item frame. An item frame comparator will output 0 if the item frame is empty. 1 to 8 for any item depending on its rotation (1 at initial placement, plus 1 for each rotation to a maximum of 8, then wrapping back to 1).
+
+**Command Block** - If a last command successfully execute at command block then the comparator will turn on, that gives signal.
+
+### Power Components
+
+Power components create redstone signals, either permanently or in response to player, mob, and environmental activity.
+
+#### Lever
+
+A lever is a switch which you can use to power any adjacent redstone dust (including beneath the lever) to power level 15, it powers any adjacent redstone comparator or redstone repeater facing away from the lever (must be place on input) to power level 15. Strongly powers its attachment block is a full solide opaque block (see miscellaneous components section). Activates any adjacent mechanism components, including above or below, such as piston, redstone lamps, etc/
+
+While the lever is on, it keeps redstone components active until you turn it off.
+
+#### Button
+
+A button can be used as a monostable power source, it will automatically deactivate shortly after being activated. It has 2 kind of button, wooden (any wooden button) and stone button.
+
+Wooden can activate by fired arrow while arrow is stucked at button, it keeps push it keeps active redstone components. Unlike stone button it can't able to push by fired arrows.
