@@ -341,38 +341,53 @@ If you want dispenser continues dispensing items you should need to power it by 
 
 Dispenser can dispense the following items:
 
-- Armors, Elytra, Heads
-   - Equips on a player or armor stand within the block the dispenser is facing with empty appropriate armor slot
-- Carved Pumpkin, Wither Skull
-   - Placed as blocks. If placement completes the construction of an iron golem, snow golem, or wither, the entity will be created as if constructed by a player.
-- Arrow, Tipped Arrow
-   - Fired in the direction where the dispenser is facing.
-- Battle o' chanting, egg, snow ball, splash potion, lingering potion
-   - Thrown in the direction where the dispenser is facing, as like as how player throw it.
-- Bone meal
-   - Uses bone meal (as fertilizer) on the block the dispenser is facing, if possible. If the block faced does not react to bonemeal, no bone meal is used
-- Fire Ball
-   - Launches fireball (as if produced by a blaze) in the direction the dispenser is facing.
-- Flint and Steel
-   - It place a fire in front of dispenser and reduce the durability of the flint and steel, If there is TNT it will ignites the tnt.
-- Firework Rocket
-   - Launches in the direction the dispenser is facing. Can be used to inflict damage if it was crafted with stars.
-- All types of Minecart
-   - Placed as entity in the block the dispenser is facing, if the dispenser is facing a type of rails, otherwise dropped.
-- Boat
-   - Placed as entity in the block the dispenser is facing, if the dispenser is facing water or an empty block above water, otherwise dropped.
-- Spawn Egg
-   - Summons a mob in front of the dispenser
-- TNT
-   - Places and ignites TNT in the block the dispenser is facing.
-- Trident
-   - Thrown in the direction the dispenser is facing.
-- Water Bucket, Lava Bucket
-   - Places lava or water in the block in which the dispenser is facing (replacing the lava or water bucket in the dispenser with an empty bucket), if the dispenser is facing at block it dropped.
-- Cod, Salmon, Tropical & Puffer Fish Bucket
-   - Places a water and summon a fish in the block in which the dispenser is facing, leaving an empty bucket in dispenser.
-- Empty Bucket
-   - Collects lava or water source block in which the dispenser is facing, adding the newly filled bucket to an empty slot in the dispenser's inventory.
+Armors, Elytra, Heads
+- Equips on a player or armor stand within the block the dispenser is facing with empty appropriate armor slot
+
+Carved Pumpkin, Wither Skull
+- Placed as blocks. If placement completes the construction of an iron golem, snow golem, or wither, the entity will be created as if constructed by a player.
+
+Arrow, Tipped Arrow
+- Fired in the direction where the dispenser is facing.
+
+Battle o' chanting, egg, snow ball, splash potion, lingering potion
+- Thrown in the direction where the dispenser is facing, as like as how player throw it.
+
+Bone meal
+- Uses bone meal (as fertilizer) on the block the dispenser is facing, if possible. If the block faced does not react to bonemeal, no bone meal is used
+
+Fire Ball
+- Launches fireball (as if produced by a blaze) in the direction the dispenser is facing.
+
+Flint and Steel
+- It place a fire in front of dispenser and reduce the durability of the flint and steel, If there is TNT it will ignites the tnt.
+
+Firework Rocket
+- Launches in the direction the dispenser is facing. Can be used to inflict damage if it was crafted with stars.
+
+All types of Minecart
+- Placed as entity in the block the dispenser is facing, if the dispenser is facing a type of rails, otherwise dropped.
+
+Boat
+- Placed as entity in the block the dispenser is facing, if the dispenser is facing water or an empty block above water, otherwise dropped.
+
+Spawn Egg
+- Summons a mob in front of the dispenser
+
+TNT
+- Places and ignites TNT in the block the dispenser is facing.
+
+Trident
+- Thrown in the direction the dispenser is facing.
+
+Water Bucket, Lava Bucket
+- Places lava or water in the block in which the dispenser is facing (replacing the lava or water bucket in the dispenser with an empty bucket), if the dispenser is facing at block it dropped.
+
+Cod, Salmon, Tropical & Puffer Fish Bucket
+- Places a water and summon a fish in the block in which the dispenser is facing, leaving an empty bucket in dispenser.
+
+Empty Bucket
+- Collects lava or water source block in which the dispenser is facing, adding the newly filled bucket to an empty slot in the dispenser's inventory.
 
 Other items should only drop
 
@@ -427,4 +442,210 @@ An activator rail is used to activate a minecart. An activator rail affects cert
 A command block executes its defined command once. To make a command block constantly execute its command, it must be run on a clock circuit or set it to repeating command block.
 
 Like other mechanism components, an already-activated command block will not respond to other redstone signals. To make a command block execute its defined command more than once it must be deactivated and re-activated repetitively. Or can be activated repetitively by setting the command block to always active.
+
+### Mobile Components
+
+#### Boat
+
+Boat is used to transport a player over water. The boat can place by dispenser on water surface or in air so it can be used in redstone project for some purpose so this is also considered as redstone components.
+
+#### Minecart
+
+A minecart is used to transport a mob or player over rails.
+
+The player can move a minecart by pushing against it while outside the minecart (whether the minecart is on rails or not), or by pressing the Forward control key while inside the minecart (only while the minecart is on rails). A minecart resting on powered rails configured to point at an adjacent opaque block will be propelled away from the opaque block when the powered rails are activated. A minecart traveling over activated powered rails will have its speed boosted.
+
+#### Minecart with Chest
+
+A minecart with chest (a.k.a. chest minecart) is used to store and transport items over rails.
+
+A minecart with chest will accept items from a hopper and will allow a hopper underneath it to pull items from it.
+
+#### Minecart with Hopper
+
+A minecart with hopper (a.k.a. hopper minecart) is used to collect, transport, and distribute items over rails.
+
+A minecart with hopper will pull items from containers above it and push items into hoppers below it (the number of items that will be transferred can depend on how long its velocity allows it to remain within reach of the containers). It will also pick up items that have fallen on the rails. If a minecart with hopper passes over a powered activator rail, it will stop transferring items indefinitely until it passes over an unpowered activator rail.
+
+#### Minecart with TNT
+
+A minecart with TNT (a.k.a. TNT minecart) is used to create explosions.
+
+A minecart with TNT which passes over a powered activator rail will explode.
+
+#### Minecart with Command Block
+
+A minecart with command block (a.k.a. command minecart, command block minecart) is used to execute commands.
+
+A minecart with command block will execute its command every 2 redstone ticks while on an activator rail.
+
+### Miscellaneous Components
+
+#### Opaque Blocks
+
+Opaque blocks obstruct light and vision (with some exceptions: for example, glowstone is not considered an opaque block).
+
+Opaque blocks (also known as solid blocks) are used to support redstone components and to transmit power.
+
+An opaque block is strongly powered by an active power component, an active redstone repeater, an active redstone comparator or redstone torch at the bottom of it for examples.
+
+If opaque block is powered by power components and transmission components (except redstone block) it turns OFF any attached redstone torch, turns ON any adjacent redstone repeater or redstone comparator facing away from it, it activates any adjacent mechanism components, and it's also powered redstone dust except if opaque block is powered by redstone dust also.
+
+A vertical diagonal wiring of redstone dust can be block by an opaque blocks.
+
+IMAGE
+
+#### Transparent Blocks
+
+Transparent blocks either can be seen through fully (for example, glass) or partially (for example, stairs), or allow light to pass through (for example, leaves).
+
+Transparent blocks cannot transmit power, but are only needed as "insulators". Some transparent blocks have special properties that make them useful in redstone circuits.
+
+You can use transparent block to prevent redstone dust wiring to power mechanism components at the bottom of it for example, you can use to prevent redstone torch to power redstone wiring at the top if it for example.
+
+Transparent block can't block redstone vertical diagonal redstone dust wiring.
+
+IMAGE
+
+#### Immobile Blocks
+
+Immobile Blocks (also known as Non-movable blocks) are blocks that cannot able to push or pull by piston, slime block or honey block it's special properties can be use building redstone structure, like redstone elevator (see elevator section under Transport Mechanism) it uses obsidian to prevent slime blocks to pull/push it when moved.
+
+#### Slime Block
+
+When a slime block is pushed or pulled by a piston, it attempts to move all adjacent blocks in the same direction. The types of blocks that can be moved are the same as those that can be pulled by a sticky piston. Blocks that cannot be pulled by a sticky piston stay in place. The blocks that are moved may in turn push other blocks. For example, a slime block sitting on the ground attempts to move the ground block underneath itself, which push additional ground blocks in the direction of motion just as if it were being pushed directly by a piston.
+
+Glazed terracotta and honey blocks are exceptions; they do not move when adjacent slime blocks are moved. When the adjacent block that is moved is also a slime block, that block attempts to move all its adjacent blocks. For example, a 2×2×2 cube of slime blocks may be pushed or pulled as a unit by a single piston acting on any of the blocks in the cube.
+
+A slime block adjacent to a block that cannot be moved by pistons ignores the immobile block. However, if an adjacent block could be moved but is prevented by the presence of an immobile block, the slime block is also prevented from moving. This includes slime blocks being pulled rather than pushed, in which case the piston retracts without pulling anything.
+
+When being pushed by a piston, entities that are ahead are launched into the direction the block is pushed into. When pulled by a piston, no entities are launched.
+
+#### Honey Block
+
+When a honey block is moved by a piston, it attempts to move all adjacent blocks in the same direction. A honey block can move any block a sticky piston can pull, except for glazed terracotta and slime blocks. The blocks that are moved may, in turn, push other blocks, as if they were being pushed by a piston. For example, a honey block sitting on the ground attempts to move the ground block underneath itself, which pushes additional ground blocks in the direction of motion.
+
+When the adjacent block that is moved is also a honey block, that block also attempts to move all its adjacent blocks. For example, a 2×2×2 cube of honey blocks may be pushed or pulled as a unit by a single piston acting on any of the blocks in the cube.
+
+A honey block adjacent to a block that cannot be moved by pistons ignores the immobile block. However, if an adjacent block could be moved but is prevented by the presence of an immobile block, the honey block is also prevented from moving. 
+
+When being moved by a piston, entities on a honey block's top surface move with it. They are not launched in the direction of the push, as a slime block would do.
+
+## Redstone Tips
+
+### Preparing
+
+#### First in Creative Mode
+
+If you want to make a complex redstone project in your Survival world, it's always best to do it in Creative mode first in different world. When making complex projects, create a creative world, preferably a flat world with cheats on then enabled always day, disabled weather cycle and disabled do mob spawning so all annoying things won't boder you.
+
+Creative mode is a great for building, because you have an infinite number of blocks, you can break blocks right away, and you can fly around to look all around your structures. So while experimenting you have everything unlike in survival while experimenting you may lack in materials.
+
+Once you have finished your redstone contraption, try to figure out where you can improve the contraption; maybe try to make it a little bit smaller. Then, all you have to do once in survival mode is gather the materials, and just copy what you did in creative mode. Optionally, you can count how many of each material you used when building in creative mode, so that you will know exactly how much of a certain material to gather when in survival.
+
+### Construction
+
+#### Planning
+
+The first step in building a redstone circuit is to decide what it will do and how, in general, it will operate.
+
+- How and where will it be controlled?
+- Will the circuit be controlled by the player, by mob movement, or something else?
+- What mechanism components will it control? What is an efficient first design?
+
+Although refinement often occurs in later stages of the build, starting off on a strong foot to tackle the idea will be beneficial later on. Allowing an inefficient/flawed design to manifest can hinder development.
+
+How will the signal be transmitted from the controls to the mechanisms?
+- Will signals need to be combined from multiple sources?
+
+#### Construction
+
+It can be helpful to choose a specific set of blocks the player use to construct circuits. Then, when the player run into these blocks when digging out new rooms in the base, the player know he or she are about to damage a previously-built circuit. Common choices include stone brick, snow block, and wool. (Using different colors of wool is also a great way to keep track of different circuits)
+
+Be careful when building circuits near water or lava. Many redstone components will "pop off" (turn into items) when washed over by liquids, and lava will destroy any items it contacts.
+
+Be careful when building circuits to activate TNT (traps, cannons, etc.). Circuits in mid-construction can sometimes briefly power up unexpectedly, which might activate TNT. For example, placing a redstone torch on a powered block, it won't "figure out" that it should be turned off until the next tick, and can briefly power another part of the circuit until then. Placing TNT after the rest of the circuit is complete will help to avoid such problems and the destruction of the device itself. This also applies to any other features of the circuit that may be accidentally activated with such actions (e.g., activating a dispenser before the circuit is ready).
+
+#### Problem Solving
+
+When the circuit isn't working the way it should, take a look at it and try to find the problem. Work through the circuit and test various inputs to find where a signal is "dropped" inadvertently.
+
+- Trying to draw power from a weakly-powered block? Maybe a redstone repeater is needed to strongly-power the block, or to pull power out of the block.
+- Trying to transmit power through a non-opaque block? Replace it with an opaque block, or go around it.
+- Was a short-circuit created and a redstone torch that should be powered is now burned out? Fix the short-circuit and update the torch to get things going again.
+- Are parts of the circuit activating when they shouldn't be? Maybe accidentally "crossed wires" are allowing a signal from one part of the circuit to activate another part of the circuit, or a repeater's output is being allowed to cycle into its input.
+- Did the behavior that was intended accidentally get removed from the circuit?
+- Are pistons, dispensers, or droppers being indirectly powered?
+- Are you attempting to follow a tutorial from an older version of Minecraft which no longer works in current updates?
+
+#### Refining
+
+Once the circuit is working, consider if it can be improved (without breaking it).
+
+Can the circuit be faster?
+- Reducing the number of components or distance a signal has to travel through can speed up the circuit.
+Can the circuit be smaller?
+- Can fewer blocks be used?
+- Can the redstone dust lines be shortened?
+- Can compact logic gates be used in the circuit?
+- Are unnecessary components used?
+
+Can the circuit be more robust?
+- Will the circuit still work when activated by a very short pulse?
+- Will the circuit still work when activated and deactivated rapidly in succession?
+
+Did an update create the opportunity for a better circuit? (e.g., comparators, locking repeaters, observer, etc.)
+
+Can the circuit be quieter?
+- Fewer sound-emitting blocks (e.g. pistons, dispensers and droppers, doors, trapdoors, fence gates, and note blocks) will make your device more stealthy around other players.
+
+Can any lag be reduced? Machines with many redstone components frequently changing state can cause light, sound, particle, or update lag.
+- Redstone torches and redstone lamps change their light level when they change state. Light changes can cause block light updates in hundreds of block tiles around each component. Concealing the component in opaque blocks or placing permanent block light sources (torches, glowstone, etc.) nearby can reduce lag from block light updates.
+- A number of redstone components produce sound when activated or deactivated (pistons, dispensers and droppers, doors, trapdoors, fence gates, and note blocks). Too many sounds at once can overload Minecraft's sound engine and produce lag.
+- A number of redstone components produce particles (redstone torches, redstone dust, but especially fireworks fired from dispensers). Too many particles may overload Minecraft's particle rendering and then some particles may fail to render until old particles have disappeared.
+- Every time a block is moved by a piston it can produce block updates in its neighbors so moving too many blocks at once can produce lag.
+- Hoppers and hopper minecarts especially may be trying to do multiple things at once (accept items pushed into them, push items into other containers, check for item entities above them). Powering unneeded hoppers to disable them or placing containers (such as chests and furnaces) above them to disable their item entity checks can help to reduce lag.
+
+### Enchancing
+
+#### Analyzing
+
+Building a mechanism or contraption can help you to enhance your redstone knowledge while you are building you should try to analyze the circuit how it work.
+
+What redstone components are used? Try to figure out why these redstone components is needed
+
+Sometimes repeater is use instead of redstone dust even the delay doesn't matter in a circuit, but why repeater is use?
+- Maybe a diode circuit is required in contraption
+- Maybe a repeater is use because it's need to power the whole adjacent blocks
+- Maybe it's use to make a parallel circuit
+- Maybe it's use because there is redstone torch beneath the block where it place to prevent redstone torch affect the circuit
+
+Do you wonder why this block is need in contraption what's the uses of this block in the contraption?
+
+Non-Movable Blocks
+- Non-movable blocks (i.e obsidian) maybe used to prevent pistons to push it or stick to the slime blocks or honey blocks, example the elevator it's uses obsidian to prevent slime block to move it.
+
+Transparent Blocks
+- Maybe transparent block is used for upwiring circuit
+- Maybe it is use for path of redstone dust to make other components shouldn't affect the wiring (i.e there is redstone torch beneath the block where redstone dust is placed).
+- Maybe a diode circuit without delay is required in contraption
+
+Analyze the circuit where the circuit goes when input is trigger, how are every redstone components react to the redstone signals.
+- Why repeater ticks are set like this?
+- When you trigger the input what mechanism components should be power first and why it's should need to power first?
+
+#### Application
+
+After you analyze how mechanism work, your knowledge at redstone will improve, you can have an idea what will to do when building a circuit for your contraption, you will have an idea what's redstone components should be use for your need and not to be used in your own project.
+
+If your circuit doesn't work the way it should, maybe the circuit from the mechanism would help you.
+- It can give you an idea to make a better circuit or components.
+- You can copy some of the parts of mechanism for your own project.
+- The redstone techniques used in mechanism you can do that too.
+
+## Transmission Circuit
+
+### Vertical Circuit
+
+While horizontal transmission can be relatively straightforward, vertical transmission is a transmission circuit that is going from bottom to top or from top to bottom in vertical direction.
 
