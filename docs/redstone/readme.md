@@ -649,3 +649,144 @@ If your circuit doesn't work the way it should, maybe the circuit from the mecha
 
 While horizontal transmission can be relatively straightforward, vertical transmission is a transmission circuit that is going from bottom to top or from top to bottom in vertical direction.
 
+#### Upwiring
+
+Transparent blocks which can support redstone dust do not "cut" redstone wiring, these blocks can be made zig-zagging back and forth upwards. Glass and upside-down slabs are the most commonly used supporting blocks, but other transparent block can be used too, such as hoppers, glowstone and upside-down stairs. A vertical circuit made with glass can transfer signal from bottom to top or from top to bottom unlike with slab that send signal in one direction only which is going up.
+
+Redstone dust on them can propagate signals diagonally upwards. This type of transmission circuit is so called "redstone ladder".
+
+IMAGE
+
+Redstone torches can power blocks above them, allowing transmission upwards, this transmission circuit is called "torch tower". And the alternating redstone torch is called "torch ladder".
+
+IMAGE
+
+#### Downwiring
+
+Redstone torches can power redstone dust beneath them, allowing transmission downwards.
+
+IMAGE
+
+### Diode
+
+Another important aspect of signal transmission is making sure a signal doesn't go the wrong way. A "diode" is a redstone contraption or circuit which allows signals through in one direction but not the other.
+
+#### Diode Circuit
+
+Repeater Diode - Both the redstone repeater and the redstone comparator transmit signals in only one direction, but add 1 tick of delay.
+
+IMAGE
+
+Block Diode - By powering a block, a signal can transmit in only one direction. None of the output lines can affect each other.
+
+IMAGE
+
+Transparent Diode - Some transparent blocks can support redstone dust: hoppers, glowstone, upside-down slabs, and upside-down stairs. These blocks have the property that redstone dust on them can propagate signals diagonally upwards, but not diagonally downwards (transparent blocks which cannot support redstone dust cannot be used for this purpose). Thus, simply jumping the signal up one block to one of these transparent blocks creates a diode circuit.
+
+IMAGE
+
+### Analog
+
+An analog encoding (aka "hex wire") is a transmission which outputs the same signal strength it receives as input. Because power levels can vary from 0 to 15, an analog transmission can convey 16 states in a single wire.
+
+#### Analog Comprartor Wire
+
+IMAGE
+
+Best option for short distances and tricky turns
+
+The simplest analog wire is a line of redstone comparators. However, like repeaters, comparators can draw a signal from an opaque block and push a signal into an opaque block, thus it is usually more efficient (in resources, and in signal delay) to place comparators every four blocks.
+
+The signal strength of an analog comparator wire (ACW) can be reduced or suppressed at some point along its length by feeding another signal into one of the comparators in subtraction mode. The signal can be overridden by feeding a stronger signal into one of the opaque blocks.
+
+Because the redstone dust is not adjacent to any power or transmission components, only opaque blocks, it will not configure itself to point in any particular direction. This will cause the dust to also power any opaque blocks or mechanism components to the side of the analog wire. Transmission components (redstone dust, redstone comparators, etc.) should not be placed adjacent to the wire's dust because that would cause the dust to configure itself in a way where it doesn't power the rest of the analog wire.
+
+#### Analog Repeater Wire
+
+IMAGE
+
+Fastest option for long distances
+
+Signal strength can also be retained by using repeaters to repeat every possible signal strength at the correct distance from the output to convey the correct signal strength.
+
+A single segment of analog repeater wire (ARW) consists of exactly 15 repeaters connecting an input line to an output line. To connect multiple segments together without additional comparators, the segments must be arranged so that the output dust of the last repeater is the same as the input dust of the next segment (i.e., block B of the previous segment is block A of the next segment). This causes the segments to overlap in distance by one block and causes each segment to be offset to the side from the previous segment by two blocks.
+
+**Variations;** To keep the segments in-line, or to turn against the direction the repeaters are facing, raise the final repeater by one block and drop the next segment underneath it.
+
+Another option is to use a comparator and an opaque block between the segments, and alternate the direction the repeaters are facing. This keeps the height to 2 blocks but increases the circuit delay to 2 ticks per 17 block.
+
+#### Analog Substraction Wire
+
+IMAGE
+
+Complicated, infrequently useful
+
+If fewer than 15 states need to be transmitted, it may be more efficient to encode those N states in the higher levels of signal strength, and then repeatedly subtract the transmitted value from 15 after (17-N) dust, an even number of times.
+
+**Variations*;* The chests can be replaced with any other full container. The chests can also be replaced with regular power components (redstone torches, powered levers, etc.) if the redstone dust next to them is raised or lowered by one block, or if the subtraction comparator and its power source are moved so that the redstone dust runs straight into the comparator's side with the comparator perpendicular to the line still facing into the same block.
+
+IMAGE
+
+## Logic Circuit
+
+### Logic Gates
+
+Logic Gates are a way of using redstone circuits in a manner that a certain combination of inputs, or redstone signals, achieves a certain output.
+
+#### Logic Gate Diagram
+
+IMAGE
+
+#### How These Gates Work?
+
+**Input/Output Gate** - The most basic gate you can have. When the input signal is on, the output signal is on, and vice versa.
+
+**NOT Gate** - NOT Gate also known as an inverter, is a gate used when you want an opposite output from the input you give. For instance, when the switch, or input, is set to "on", the output will be toggled to "off", and when the switch is toggled to "off", the output will be toggled to "on".
+
+**OR Gate** - OR Gate uses two or more inputs. Whenever any input is "on", the output is to "on". The only time the output is "off" is when all inputs are "off".
+
+**NOR Gate** - Output is on, only if none of it's input are on.
+
+**AND Gate** - It is used with two or more switches or other inputs. The output is toggled to OFF only when both switches, or inputs, are toggled to ON. Otherwise, the output will remain OFF.
+
+**NAND Gate** - NAND Gate is the opposite to the AND gate. The output is toggled to OFF ONLY when both switches are toggled to ON. Otherwise, the output is set to ON. This gate also requires two or more inputs.
+
+**XOR Gate** - This gate uses two inputs. In this gate, the output is toggled to ON when one switch is ON and one switch is OFF. If both switches are in the same states, the output is toggled to OFF. Because of these properties, XOR gates are commonly found in complex redstone circuits. In some cases, it is possible to get an OR gate output and an AND gate output on different channels.
+
+**XNOR Gate** - XNOR Gate is the opposite of an XOR gate. It uses two inputs. When both switches are in the same state (both switches are ON or both switches are OFF), then the output is toggled to ON. Otherwise, if the switches differ, the output is toggled to OFF.
+
+**ONLY Gate** - In this gate, the output is toggled to ON only when input A is ON and input B is OFF. If input A is OFF and input B is ON, the output will remain "off". If both inputs are OFF or ON, the output will remain OFF. This makes this gate useful when needing a specific order of inputs to trigger the output.
+
+*NOTE: This gate is just a special case of a NOR gate where one of the inputs is inverted.*
+
+### Advance Gates
+
+These Logic Gates have more than two input. It is called advance gates because these examples have multiple input unlike examples in Logic Gates section, but it work the same and still called Logic Gates it just categorize as Advance Gates. These are stackable so you can add more input.
+
+For an explanation of each gates see Logic Gates section.
+
+#### Multi-Input AND Gate
+
+IMAGE
+
+#### Multi-Input NAND Gate
+
+IMAGE
+
+#### Multi-Input XOR Gate
+
+IMAGE
+
+####Multi-Input XNOR Gate
+
+IMAGE
+
+## Clock Circuit
+
+### Rapid Clocks
+
+Clock Circuit is a circuit that send an endless signal at specific intervals. It produces a clock singal: a pattern of pluses which repeats itself. The time between the signals can be set by the player, either roughly or very accurately.
+
+Redstone Clock that are listed in this section are clocks that repeat itself very fast, some of these can adjust the clock cycle or make it slower.
+
+
