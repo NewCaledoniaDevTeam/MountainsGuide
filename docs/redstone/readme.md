@@ -1738,5 +1738,307 @@ STEP 5: You can now cover the redstone components.
 
 IMAGE
 
+### Hidden Chest
+
+Hidden Chest is a redstone mechanism that will hide your chest and you can reveal in just one click. You can use this to protect your items and prevent anyone accessing your chest.
+
+In this tutorial I will use gold block in building this mechanism that represents to any opaque block and quartz of block represent as floor.
+
+STEP 1: Place 2 sticky piston facing upward and then chest on top of it then block of your choice for floor in the left side then a regular piston facing to block and another piston on the right side 1 block away from chest.
+
+IMAGE
+
+STEP 2: At the back of lower piston place a block then a redstone torch attached to it and next a block on top of redstone torch and another redstone torch attached to it.
+
+IMAGE
+
+STEP 3: Place a block 1 block below from regular piston then a redstone dust following with repeaters like shown in the picture. This is a piston extender where redstone torch at the back is your input.
+
+IMAGE
+
+STEP 4: On the right side build like what shown in the picture a redstone dust placed next to repeater will be the input for extender. The two comparator in reversed direction uses to make redstone current stays a bit longer than usual.
+
+IMAGE
+
+STEP 5: At the back, place a redstone torch attached to a block where comparator is facing then a redstone dust connected to a redstone torch. This will extend the extender.
+
+IMAGE
+
+STEP 6: Build like what shown in the picture, the repeater has only 1 tick. This wiring is connected to left piston.
+
+IMAGE
+
+STEP 7: Going back to the front, place an observer facing down to the redstone dust then repeater on top of it going to redstone torch at the back.
+
+IMAGE
+
+STEP 8: This repeater on top is the input, now build a T-flip Flop here after placing item on upper dropper it will retract chest and swap to floor block.
+
+IMAGE
+
+STEP 9: That block of quartz is your ground floor level, now cover them with your chosen blocks for floor.
+
+IMAGE
+
+The input is the T-Flip Flop, place in either side of upper dropper a repeater facing to it and that is your input, connect your input in your chosen placed.
+
+### Hidden Door
+
+This mechanism makes your room/house hidden, the door or entrance to your room/house is hidden you can use to protect your house from other players or hide something from others.
+
+#### Jeb Door (2 x 1)
+
+Jeb door is a hidden room in wall that uses a sticky piston to move a block and create a path to your entrance.
+
+STEP 1: Build a frame of door then sticky pistons.
+
+IMAGE
+
+STEP 2: Place another sticky piston in front of sticky piston then a block.
+
+IMAGE
+
+STEP 3: Build a wall, this will be your path to go inside of your hidden room.
+
+IMAGE
+
+STEP 4: Place down a redstone wire this is your input.
+
+IMAGE
+
+STEP 5: Continue wiring going to the next sticky piston with 3 ticks of repeater.
+
+IMAGE
+
+STEP 6: Now cover the redstone components place lever in the left side at center and flicked it to close door.
+
+IMAGE
+
+If you want input isn't visible you can make a hidden input contraption, see hidden input section.
+
+#### Jeb Door (2 x 2)
+
+STEP 1: Dig a hole with 5 width 8 length and 3 depth
+
+IMAGE
+
+STEP 2: Place a blocks just like in the picture below for redstone wiring.
+
+IMAGE
+
+STEP 3: Now place down redstone wire, redstone wire on center is your input.
+
+IMAGE
+
+STEP 4: Place a 2x2 sticky piston facing each other.
+
+IMAGE
+
+STEP 5: Place another sticky piston in front of sticky piston in both side.
+
+IMAGE
+
+STEP 6: Then place a block in front of sticky piston l, these blocks is your door.
+
+IMAGE
+
+STEP 7: Build a frame of your door.
+
+IMAGE
+
+STEP 8: At the back, build an upwiring circuit with glass going to the top, make sure redstone dust is directly at piston below.
+
+IMAGE
+
+STEP 9: Cover all of the redstone components, set up your input try to activate input to see how it work. You can build hidden input see "Hidden Input" section for tutorial.
+
+IMAGE
+
+## Door and Gate Mechanisms
+
+### Piston Door
+
+#### 2x2 Piston Door
+
+STEP 1: Place a sticky piston with blocks of your choice like shown below.
+
+IMAGE
+
+STEP 2: Connect them using redstone dust above them.
+
+IMAGE
+
+STEP 3: Then finally build a wall to cover the redstone components in both side. In any those redstone dust can be your input.
+
+IMAGE
+
+### Castle Gate
+
+STEP 1: Build an upward double piston extender with 4 wide. In case you don't know how to build or how it work see piston extender section under contraption category.
+
+IMAGE
+
+STEP 2: Place a 4 x 4 Fences directly at sticky piston.
+
+IMAGE
+
+STEP 3: Build a frame for your fences and place 2 rows of pistons that facing downward.
+
+IMAGE
+
+STEP 4: Power the input of your piston extender to extend the fence and push it upward.
+
+IMAGE
+
+STEP 5: Build a frame again like shown in the picture below, also at the back.
+
+IMAGE
+
+STEP 6: On top of it build this, this is back view, but it doesn't matter if you do it in either front or back.
+
+IMAGE
+
+STEP 7: On its side build a torch tower like show in the picture.
+
+IMAGE
+
+STEP 8: Now at bottom part build this like shown below, the red block represent as your input. (In front of lower observer has repeater with 4 ticks)
+
+IMAGE
+
+### Lava Door
+
+Lava Door is a mechanism where it uses lava as barrier of the door. When lava is about to flow and closes the door it will retract piston below the ground so there's a hole for lava to catch it. Then will extend piston after lava disappear.
+
+STEP 1: Dig a hole with 2 block wide 4 length and 2 block depth. Then place 3 sticky piston facing upward with a redstone dust and redstone torch in side of it like what shown in the picture. This use to catch lava
+
+IMAGE
+
+STEP 2: On the right side of the hole dig another hole. 2 more blocks in front, 3 blocks at the back, with 5 blocks width and 2 blocks depth.
+
+IMAGE
+
+STEP 3: Build Ethonian Hopper Clock on the side of hole.
+
+IMAGE
+
+STEP 4: Place a block in front of hopper with redstone torch attached to both side and repeater facing to it then another block in back of repeater with redstone on top. This will be the input of ethonian hopper clock.
+
+IMAGE
+
+STEP 5: Put any 30 items inside the hopper.
+
+IMAGE
+
+STEP 6: Dig a hole again like shown in the picture, it's going to redstone torch to the sticky piston from redstone torch in input of ethonian hopper clock.
+
+IMAGE
+
+STEP 7: Place down redstone dust in this hole including on top of block near the sticky piston. Place a block where redstone dust attempt to connect above to separate the signal.
+
+IMAGE
+
+STEP 8: Build a farme of door, its 7 block high including a block submerged in the ground. It is require that you have atleast 1 block submerged in the ground correspond to sticky piston, so when sticky piston is retracted lava will not spill in that hole.
+
+IMAGE
+
+STEP 9: Continue building the frame of door. Leave a hole in center.
+
+IMAGE
+
+STEP 10: Cover the floor of door with your chosen block that couldn't burn. As you see in the picture in the middle is 1 block below because it's attached to sticky piston.
+
+IMAGE
+
+STEP 11: At the top of door place dispenser in the hole facing down with bucket of lava in each of dispenser.
+
+IMAGE
+
+STEP 12: At the side of door, build a thing like this. This will be your input.
+
+IMAGE
+
+STEP 13: On the block of input place a repeater facing away to it then build a T-Flip Flop next to it. Put one item in lower dropper. It is required that item is placed in lower dropper otherwise the lava and retracting of piston will not met a certain condition we wanted.
+
+IMAGE
+
+STEP 14: Place redstone torch attached to block of output of T-Flip Flop then a redstone dust below connected to repeater.
+
+IMAGE
+
+STEP 15: From your input connect it to dispenser above with torch tower.
+
+IMAGE
+
+STEP 16: Now it's done! Design your door, replace ground with blocks of your choice.
+
+IMAGE
+
+STEP 17: Now place a button in front and back of the door. Click the button to close the door with lava.
+
+IMAGE
+
+*NOTE: Don't click button too fast and don't click while lava is flowing because everything is well timed, this may not cause error to contraptions but may cause lava to spread on ground. Also, after you close the door don't immediately open because lava is slower to flow when disappearing, at that moment items in ethonian hopper clock is still transferring so after it closes wait another few seconds before you open it again.*
+
+## Transport Mechanism
+
+### Item Elevator
+
+Item Elevator is a mechanism which is use to automatically transfer your items from bottom to go up.
+
+STEP 1: Dig a hole with 3 length, 4 width and 1 block depth.
+
+IMAGE
+
+STEP 2: On the corner of the hole place a dropper facing upward, how tall you want.
+
+IMAGE
+
+STEP 3: Then place a chest on top of dropper.
+
+IMAGE
+
+STEP 4: Dig 2 block to the front of dropper.
+
+IMAGE
+
+STEP 5: Then place a hopper connected to lower dropper.
+
+IMAGE
+
+STEP 6: Then place a chest in top of hopper.
+
+IMAGE
+
+STEP 7: Now build this.
+
+IMAGE
+
+STEP 8: Place an alternatiing block start from where repeater is facing, going to the top.
+
+IMAGE
+
+STEP 9: Then place an alternating redstone torch going to the top. Now the item Elevator is done.
+
+IMAGE
+
+STEP 10: You can now build a wall to cover redstone components. Store item/s in lower chest and it will automatically transfer to top chest.
+
+IMAGE
+
+### Elevator
+
+Elevator is a redstone mechanism that allow player or mob to transfer from bottom to top or from top to bottom.
+
+The step by step tutorial for building redstone elevator is not yet currently finished, because it has a lot of steps. You can watch it in Vechrozilator's channel for tutorial in building this redstone elevator. The tutorial in this guide for building elevator will be added soon.
+
+To watch the video search his channel on YouTube "Vechrozilator" then go to playlist redstone creation and find it or simply search Vechrozilator's elevator.
+
+You can visit this link: https://youtu.be/o4krM-8HVDs
+
+## Lock Mechanism
+
+
+
 
 
