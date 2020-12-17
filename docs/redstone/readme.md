@@ -1342,3 +1342,158 @@ IMAGE
 
 ## Traps Mechanisms
 
+### Mob Traps
+
+Traps are a common mechanism in Survival Multiplayer built by players to kill other players or mobs automatically. The following is a list of traps for mobs with a short tutorial that often assumes the reader has a working understanding of the basic concepts required to build the traps.
+
+#### Door Cage Trap
+
+This trap will automatically lock or stuck mob in a door cage when they step on.
+
+To build this simply place pressure plates on ground and place 4 iron doors in a spiral pattern around the pressure plate.
+
+IMAGE
+
+#### Piston Trap
+
+Any mob won't get out and stucked in area when step on the area where trap is, you can also lure some mobs to chase them alive.
+
+STEP 1: Dig an outline of square or rectangular shape with 1 block depth. Don't dig a block in corner.
+
+IMAGE
+
+STEP 2: Place piston facing upward in all hole.
+
+IMAGE
+
+STEP 3: Place a pressure plates at inner side of pistons.
+
+IMAGE
+
+STEP 4: Place a slabs or blocks in top of all pressure plates with 1 block gap from pressure plates.
+
+IMAGE
+
+If mob get inside of this area they will never get out because of pressure plate make piston to extend and block their way out.
+
+IMAGE
+
+### Single-use Traps
+
+Traps are a common mechanism in Survival Multiplayer built by players to kill other players or mobs automatically. The following is a list of traps that can be use one time only with a short tutorial that often assumes the reader has a working understanding of the basic concepts required to build the traps.
+
+#### TNT House Trap
+
+This traps will blown up with tnt whose anyone walk or go inside the house. Build it in a house with iron door that use pressure plate to open door.
+
+Players won't think it's a trap they will think that pressure plates is use for opening iron door, that's why iron door is required for this.
+
+Place a TNT under the block where pressure plate is placed, you can place how many TNT you want but make sure all will explode.
+
+IMAGE
+
+#### Ore TNT Trap
+
+This trap will blown up a player who will mine an ore. If ore is completely mined TNT will activate.
+
+STEP 1: Find a cave you want to build this.
+
+IMAGE
+
+STEP 2: Place ore (i.e diamond ore), replace it in any stone.
+
+IMAGE
+
+STEP 3: At the back of ore place a redstone torch attached to ore.
+
+IMAGE
+
+STEP 4: Connect a redstone torch to your output use another redstone torch to invert signal, your output should be off.
+
+IMAGE
+
+STEP 5: Now place TNT connected at output under the ground where a player will stand when mining ore.
+
+IMAGE
+
+STEP 6: Cover the TNT and redstone component with stones, keep it look like naturally remove torches so player will think that there's no one was here.
+
+IMAGE
+
+#### Cake TNT Trap
+
+This trap will blown anyone who will eat a cake.
+
+STEP 1: Dig a hole in ground any length and width and at least 2 block depth.
+
+IMAGE
+
+STEP 2: Fill a hole with TNT, you can place TNT as many as you want.
+
+IMAGE
+
+STEP 3: Place a redstone dust in top of tnt then on top it place a block for a cake.
+
+IMAGE
+
+STEP 4: Now build this contraption, make sure the repeater is the last thing you place to prevent observer sending signals to repeater and activate TNT.
+
+IMAGE
+
+STEP 5: Cover the tnt with a block for floor.
+
+IMAGE
+
+STEP 6: Build a wall to cover redstone components.
+
+IMAGE
+
+### Multiuse Traps
+
+Traps are a common mechanism in Survival Multiplayer built by players to kill other players or mobs automatically. The following is a list of basic traps that can be use many times with a short tutorial that often assumes the reader has a working understanding of the basic concepts required to build the trap.
+
+#### Lava Pitfall Trap Chest
+
+In this trap any player who open a chest will fell down in lava.
+
+STEP 1: Dig down a hole 2 width 3 length and 3 depth.
+
+IMAGE
+
+STEP 2: On both side of hole dig another 2 x 3 hole and 1 block depth.
+
+IMAGE
+
+STEP 3: Place a sticky pistons facing at center in both of sides, then a block. And change a block at the end.
+
+IMAGE
+
+STEP 4: Place a trapped chest at the end of hole and place redstone dust one block depth behind a chest. Then repeater facing away at redstone dust then redstone torch on top of block where repeater is facing.
+
+IMAGE
+
+STEP 5: Pour a hole with lava. Here player will fall when chest is open.
+
+IMAGE
+
+STEP 6: Connect redstone torch to all sticky pistons with redstone dust.
+
+IMAGE
+
+STEP 7: Cover the redstone components. Make sure nothing is visible.
+
+IMAGE
+
+## Automatic Mechanisms
+
+### Automatic Lights
+
+The lamp post's light is OFF during the day and turns ON when night.
+
+To build this, place a fence how high you want (cobblestone wall at bottom is optional) then redstone lamp at the top, at top of redstone lamp place a daylight sensor and switch to night mode, and then place a trapdoor in all side of redstone lamp and close them.
+
+IMAGE
+
+### Auto-Cooker
+
+
