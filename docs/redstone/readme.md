@@ -131,7 +131,7 @@ Most blocks in a redstone ciruit are **generic**, in that any of serveral solid 
 
 #### Block Label
 
-IMAGE
+![block_label.png](images/block_label.png)
 
 - **Block of Quartz** is the ground of constrapation, here where contraption is placed.
 - **Block of Gold** represents as generic opaque block which are required by the contraption. It can be replaced by any opaque block which are required by the contraption. It can be replaced by any opaque blocks except falling blocks and/or non-movable blocks.
