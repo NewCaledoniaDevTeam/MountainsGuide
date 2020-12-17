@@ -735,7 +735,7 @@ Logic Gates are a way of using redstone circuits in a manner that a certain comb
 
 #### Logic Gate Diagram
 
-IMAGE
+![logic_gates.png](images/logic_circuit/logic_gates.png)
 
 #### How These Gates Work?
 
@@ -767,19 +767,19 @@ For an explanation of each gates see Logic Gates section.
 
 #### Multi-Input AND Gate
 
-IMAGE
+![and_gate.png](images/logic_circuit/and_gate.png)
 
 #### Multi-Input NAND Gate
 
-IMAGE
+![nand_gate.png](images/logic_circuit/nand_gate.png)
 
 #### Multi-Input XOR Gate
 
-IMAGE
+![xor_gate.png](images/logic_circuit/xor_gate.png)
 
 #### Multi-Input XNOR Gate
 
-IMAGE
+![xnor_gate.png](images/logic_circuit/xnor_gate.png)
 
 ## Clock Circuit
 
