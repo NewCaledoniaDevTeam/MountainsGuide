@@ -1496,4 +1496,247 @@ IMAGE
 
 ### Auto-Cooker
 
+Auto-Cooker is a mechanisms that will automatically cook or smelt item and stored on chest after it was cooked/smelted. If stack of item is done it will automatically take another stack items on chest and bring it on furnace to cook/smelt. If furnace runs out of fuel it will automatically take another from chest.
+
+Auto-Cooker is a mechanisms that will automatically cook or smelt item and stored on chest after it was cooked/smelted. If stack of item is done it will automatically take another stack items on chest and bring it on furnace to cook/smelt. If furnace runs out of fuel it will automatically take another from chest.
+
+STEP 1: Place a large chest and place a hopper behind it, connected to chest.
+
+IMAGE
+
+STEP 2: On top of hoppers place a furnace and then on side of furnace place a hopper in it's side and on top in both of furnace.
+
+IMAGE
+
+STEP 3: On the top of all hoppers place a chests.
+
+IMAGE
+
+STEP 4: Cover it and make only furnaces and chests are visible. You can design if you want.
+
+IMAGE
+
+Now your auto-cooker mechanism is done. Below, here how it use.
+
+TOP CHEST: Here are all items you want to cooked or smelt.
+
+SIDE CHEST: Put here your fuels for furnace.
+
+BOTTOM CHEST: If items was cooked/smelted it will automatically store here.
+
+**Variation:** You can replace furnace with smoker or blast furnace depend on what you need for fast cooking or smelting.
+
+### Automatic Farms
+
+Automatic farm can automatically harvest crops and collect, crops's fruit (melon and pumpkin), can automatically cut sugarcane that make your work easier and faster.
+
+#### Sugar Cane Farm
+
+This farm will automatically cut a sugar cane when it reach a 3 block high.
+
+This farm is very easy to build, just build what shown in the image below. 
+
+IMAGE
+
+This is stackable you can build another directly next to other copies of itself to expand it.
+
+IMAGE
+
+#### Wheat/Carrot/Potato/Betroot Farm
+
+This is a semi-automatic farm. If crops is ready to harvest click button and it will automatically harvest and collect.
+
+STEP 1: Build two 8 x 4 dirt with 1 block gap at center.
+
+IMAGE
+
+STEP 2: On either side dig a 1 block depth and place redstone dust along in hole with 1 repeater to extend the current of a redstone dust.
+
+IMAGE
+
+STEP 3: Cover it with blocks. And build a wall for your farm.
+
+IMAGE
+
+STEP 4: At the end place a dispenser and put one water bucket inside of each dispenser.
+
+IMAGE
+
+STEP 5: Continue building wall and design your farm.
+
+IMAGE
+
+STEP 6: At the back place a repeater facing at dispenser then redstone dust.
+
+IMAGE
+
+Make sure it's connected from your output.
+
+IMAGE
+
+STEP 7: Place a chest at center 1 block away.
+
+IMAGE
+
+STEP 8: Place a hopper behind the chest connected to it. 
+
+IMAGE
+
+STEP 9: Place a hopper in all front of dirt and connected all at center hopper, do it in both side.
+
+IMAGE
+
+STEP 10: Pour hole a water in the center.
+
+IMAGE
+
+STEP 11: Till the dirt with hoe to make a farm plot.
+
+IMAGE
+
+STEP 12: Place a button in your input.
+
+IMAGE
+
+STEP 13: Cover the water at center with slabs or any solid blocks to prevent crops stucked in this water.
+
+IMAGE
+
+STEP 14: Build awall in front to prevent crops from falling.
+
+IMAGE
+
+You can now plant a crops you can plant wheat, carrot, potato or betroot.
+
+IMAGE
+
+If crops is ready to harvest click button, then crops will automatically harvest and collect, all will stored at chest.
+
+IMAGE
+
+Click the button again to make dispenser get water and you can plant crops again.
+
+#### Pumpkin/Melon Farm
+
+This farm will automatically harvest melon instead of manually breaking them all one by one. By clicking button you can harvest them automatically and ready to collect.
+
+STEP 1: Make a water cannal (any length) and till its two side with hoe.
+
+IMAGE
+
+STEP 2: Dig the next two side with 2 block depth.
+
+IMAGE
+
+STEP 3: Place a sticky pistons facing upward in the hole.
+
+IMAGE
+
+STEP 4: Cover the pistons with dirt.
+
+IMAGE
+
+STEP 5: Dig the next side with 1 block depth, extend 1 block in front and then place a redstone dust.
+
+IMAGE
+
+STEP 6: Cover the redstone dust with block and build a wall. And place two button in both side of wall.
+
+IMAGE
+
+STEP 7: Place a wall, slabs or any other blocks in front of farm plot to prevent melon/pumpkin to bear fruit there.
+
+IMAGE
+
+STEP 8: Now plant a melon/pumpkin seeds in all farm plot.
+
+IMAGE
+
+If crops bear fruits and ready to harvest click the button to automatically harvest them all.
+
+IMAGE
+
+### Auto-Refiller Cauldron
+
+This mechanism will automatically refill cauldron with water when emptied (will become full if not full) with just one click. You can get unlimited water from cauldron.
+
+STEP 1: Build a simple horizontal double piston extender like shown in picture with cauldron in front of piston.
+
+IMAGE
+
+STEP 2: Build a wall in front of it and leave a hole in front of cauldron.
+
+IMAGE
+
+STEP 3: At the back, place a blocks that use to hold water at top of cauldron, then pour it a water.
+
+IMAGE
+
+STEP 4: Place a redstone torch to power the extender, this will push out the cauldron in wall.
+
+IMAGE
+
+STEP 5: Behind where redstone torch is placed, place a button. You can optionally replace block where button is placed with different block for aesthetic design.
+
+IMAGE
+
+## Hidden Mechanisms
+
+### Block Swapper
+
+Block Swapper is a mechanism that can quickly swap the block: a two blocks that switch its location. Can be use for hiding bench such as crafting table.
+
+#### Block Swapper
+
+STEP 1: Build what shown in the picture below, redstone dust is your input.
+
+IMAGE
+
+STEP 2: On top of redstone torch at center place a sticky piston facing towards you. This will extend the arm of piston.
+
+IMAGE
+
+STEP 3: On front arm of sticky piston place a block then on it's side arm (either left or right side). This two blocks which will swap when input is trigger.
+
+IMAGE
+
+STEP 4: Place a piston on top of redstone torch in both side, both are facing at sticky piston's arm.
+
+IMAGE
+
+STEP 5: At the back, place a redstone dust at blocks where repeater is facing in both side.
+
+IMAGE
+
+STEP 6: Cover the redstone components and place a button on a block where input is.
+
+IMAGE
+
+Block swapper is done click the button to swap block.
+
+#### Upward Vertical Block Swapper
+
+This block swapper is like a previous one but facing upward.
+
+STEP 1: Build what shown in the picture below, redstone dust on hole is your input.
+
+IMAGE
+
+STEP 2: On top of redstone torch at center place a sticky piston facing upward and then a block in front of it and place a block in its either left or right side of sticky piston's arm. These two blocks which will swap when input is trigger.
+
+IMAGE
+
+STEP 3: In both side place a piston, both are facing at sticky piston's arm.
+
+IMAGE
+
+STEP 4: A block in front of sticky piston, place another block in its side where input is, then a button in it. Then beneath this block place a sticky piston facing downward and then a redstone block.
+
+IMAGE
+
+STEP 5: You can now cover the redstone components.
+
+IMAGE
+
+
 
