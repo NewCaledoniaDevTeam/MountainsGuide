@@ -162,11 +162,11 @@ Redstone Repeaters can extend the current of a redstone dust beyond the 15 block
 
 See the picture below the model of repeater.
 
-IMAGE
+![repeater_model.png](images/components/repeater_model.png)
 
 Redstone Repeater has secondary function which you can lock the repeater, can be done using two repeaters. If you place a repeater facing at side input repeater will locked. A locked repeater can not change its state. See picture below.
 
-IMAGE
+![secondary_function.png)](images/components/secondary_function.png)
 
 In picture A the input is ON and it's work as normal, when its side input is turn ON the repeater will lock as you can see in picture B the repeater has dark line that replace the adjustable small torch in it symbolizes that repeater is locked. So now it is lock the states of a repeater can not be change, in picture C you can see its input is already OFF but the output stays ON. In picture D both side input are OFF and when you ON its side input first (see picture E) it's output will stay OFF and when you ON its side Input is ON or not. As you can see in Picture F the output is OFF even its input is ON because repeater is off when it was lock.
 
@@ -178,7 +178,7 @@ A redstone comparator is the most complicated redstone components, it has four u
 
 The redstone comparator has a front and a back, the arrow on the top of the comparator points to the front. When placed, the comparator will face away from the player. The comparator has two little redstone torches at the back (input) and one at the front (output). The front torch has two states which can be toggled to switch between states.
 
-IMAGE
+![comparator_model.png](images/components/comparator_model.png)
 
 First State: If redstone torch is off, redstone comparator is in "Comparison Mode".
 
@@ -192,7 +192,7 @@ A redstone comparator with no powered side inputs will simply, output the same s
 
 If torch in front is off, a redstone comparator is in comparison mode. Redstone Cimprartor in comparison mode will compare rear input to its two side inputs. If comparator output turns off. If neither side input is greater than the rear input, the comparator simply outputs the same strength as its rear input. (see image below)
 
-IMAGE
+![comparison.png](images/components/comparison.png)
 
 - In the First Sample: B redstone signal is stronger than A therefore there is no output, C is off.
 - In the Second Sample: B redstone signal is weaker than A therefore there is output, C is on. It's output is the same strength to it's rear input
@@ -275,7 +275,7 @@ A tripwire hook can attached to the side  of blocks. In order to function correc
 
 While activated, a tripwire hook and its attachment block both power any adjacent redstone dust (including below the tripwire hook, or beneath or above the block), and all adjacent mechanism components (including those above or below it). They also activate all adjacent redstone comparators or redstone repeaters facing away from it.
 
-IMAGE
+![tripwire_sample.png)](images/components/tripwire_sample.png)
 
 #### Block of Redstone
 
@@ -493,7 +493,7 @@ If opaque block is powered by power components and transmission components (exce
 
 A vertical diagonal wiring of redstone dust can be block by an opaque blocks.
 
-IMAGE
+![wiring_opaque.png](images/components/wiring_opaque.png)
 
 #### Transparent Blocks
 
@@ -505,7 +505,7 @@ You can use transparent block to prevent redstone dust wiring to power mechanism
 
 Transparent block can't block redstone vertical diagonal redstone dust wiring.
 
-IMAGE
+![wiring_transparent.png](images/components/wiring_transparent.png)
 
 #### Immobile Blocks
 
