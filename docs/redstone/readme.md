@@ -655,17 +655,17 @@ Transparent blocks which can support redstone dust do not "cut" redstone wiring,
 
 Redstone dust on them can propagate signals diagonally upwards. This type of transmission circuit is so called "redstone ladder".
 
-IMAGE
+![redstone_ladder.png](images/transmission_circuit/redstone_ladder.png)
 
 Redstone torches can power blocks above them, allowing transmission upwards, this transmission circuit is called "torch tower". And the alternating redstone torch is called "torch ladder".
 
-IMAGE
+![torch_wiring.png](images/transmission_circuit/torch_wiring.png)
 
 #### Downwiring
 
 Redstone torches can power redstone dust beneath them, allowing transmission downwards.
 
-IMAGE
+![downwiring.png)](images/transmission_circuit/downwiring.png)
 
 ### Diode
 
@@ -675,15 +675,15 @@ Another important aspect of signal transmission is making sure a signal doesn't 
 
 Repeater Diode - Both the redstone repeater and the redstone comparator transmit signals in only one direction, but add 1 tick of delay.
 
-IMAGE
+![repeater_diode.png](images/transmission_circuit/repeater_diode.png)
 
 Block Diode - By powering a block, a signal can transmit in only one direction. None of the output lines can affect each other.
 
-IMAGE
+![block_diode.png](images/transmission_circuit/block_diode.png)
 
 Transparent Diode - Some transparent blocks can support redstone dust: hoppers, glowstone, upside-down slabs, and upside-down stairs. These blocks have the property that redstone dust on them can propagate signals diagonally upwards, but not diagonally downwards (transparent blocks which cannot support redstone dust cannot be used for this purpose). Thus, simply jumping the signal up one block to one of these transparent blocks creates a diode circuit.
 
-IMAGE
+![transparent_diode.png](images/transmission_circuit/transparent_diode.png)
 
 ### Analog
 
@@ -691,7 +691,7 @@ An analog encoding (aka "hex wire") is a transmission which outputs the same sig
 
 #### Analog Comprartor Wire
 
-IMAGE
+![comparator_analog.png](images/transmission_circuit/comparator_analog.png)
 
 Best option for short distances and tricky turns
 
@@ -703,7 +703,7 @@ Because the redstone dust is not adjacent to any power or transmission component
 
 #### Analog Repeater Wire
 
-IMAGE
+![repeater_analog.png](images/transmission_circuit/repeater_analog.png)
 
 Fastest option for long distances
 
@@ -717,7 +717,7 @@ Another option is to use a comparator and an opaque block between the segments, 
 
 #### Analog Substraction Wire
 
-IMAGE
+![subtraction_analog.png](images/transmission_circuit/subtraction_analog.png)
 
 Complicated, infrequently useful
 
@@ -725,7 +725,7 @@ If fewer than 15 states need to be transmitted, it may be more efficient to enco
 
 **Variations*;* The chests can be replaced with any other full container. The chests can also be replaced with regular power components (redstone torches, powered levers, etc.) if the redstone dust next to them is raised or lowered by one block, or if the subtraction comparator and its power source are moved so that the redstone dust runs straight into the comparator's side with the comparator perpendicular to the line still facing into the same block.
 
-IMAGE
+![subtraction_analog_variation.png](images/transmission_circuit/subtraction_analog_variation.png)
 
 ## Logic Circuit
 
