@@ -2038,7 +2038,194 @@ You can visit this link: https://youtu.be/o4krM-8HVDs
 
 ## Lock Mechanism
 
+### Keycard Lock
 
+A keycard lock is a lock that required a right keycard to control the door. A paper is use as your keycard, it should need to insert in order to control the door, only your keycard is accepted to control the door.
 
+STEP 1: Dig a hole with 2 width, 4 length and 2 block depth.
 
+IMAGE
 
+STEP 2: Place a redstone dust at end and repeater facing to a block and place redstone torch attached to block.
+
+IMAGE
+
+STEP 3: Now on top of redstone torch place a block and then an iron door.
+
+IMAGE
+
+STEP 4: Build a wall and leave 1 block hole.
+
+IMAGE
+
+STEP 5: At the hole place a dropper facing inside. (Picture below is in inside view)
+
+IMAGE
+
+STEP 6: Place a hopper facing to a dropper.
+
+IMAGE
+
+STEP 7: Place a comparator facing away from hopper and build what shown in picture.
+
+IMAGE
+
+The hopper is powered by redstone torch, this will deactivate a hopper (stop transferring item).
+
+STEP 8: Get four 64x stackable items then renamed them using anvil into random name, each need a different names.
+
+IMAGE
+
+STEP 9: After you named them all place it in slot of hopper, leave the first slot.
+
+IMAGE
+
+STEP 10: Get 19 pieces of paper and also renamed them using anvil but all papers should have same name. Renamed the paper in a word you want, this is like your password.
+
+IMAGE
+
+STEP 11: Place all papers you renamed in first slot of hopper. This should transfer 1 item into dropper, get that paper in dropper and that is your keycard.
+
+IMAGE
+
+The comparator will measure the block state of hopper, a four 64x stackable item and 19 pieces of paper a total of 23 items (all are 64x stackable items) is enough to give power level 2. If power level 2 is reached the repeater will powered causing the redstone torch to OFF and unpowered the hopper so hoper will transfer item. Then after one item is transferred, its now only have a total of 22 items, it is not enough to give power level 2 so the redstone torch will ON again and stop hopper from transferring items. That's how it should work!
+
+*Note: The four items that was renamed into random letters is used to make other item can't transfer into hopper because of hopper is full. You renamed it into random letters to make other item like this won't stack in same slot, basically it is use to block other items to transfer in hopper.*
+
+STEP 12: At outside place a button on dropper, here on dropper will you insert your keycard to control door.
+
+IMAGE
+
+STEP 13: Place a redstone dust connected to a redstone torch and place a redstone torch attach to a block where redstone dust is placed (it's need to invert signal) next to it place repeater and dig 2 block in front of repeater.
+
+IMAGE
+
+STEP 14: On this hole build Grizdale's T-Flip Flop, place a dropper facing upward and a hopper connected to dropper. Then put one item in dropper, any kind of item is allow.
+
+IMAGE
+
+STEP 15: Place another dropper on top of first dropper then a comparator facing away from dispenser.
+
+IMAGE
+
+STEP 16: Place a block in front of comparator and connect the output of T-Flip Flop into door.
+
+IMAGE
+
+STEP 17: Build a wall and place a button you can make block differ in wall where button is place, this is use to control door inside.
+
+IMAGE
+
+STEP 18: At the back place 2 repeater and place a repeater in side of dropper facing to it. It uses a repeater to prevent redstone dust to power.
+
+IMAGE
+
+STEP 19: Place a block in top of comparator and in it's side to connect the two repeaters to repeater facing in dropper.
+
+IMAGE
+
+STEP 20: Your keycard door lock is done, now cover the floor.
+
+IMAGE
+
+To use it, at outside open a dropper and insert your keycard then click the button to control the door while your keycard is inside the dropper you can close and open the door you can't also close the door if keycard is not there. At inside the button there you can control the door to open and close. After you open the door don't forget to get your keycard indside the dropper before you enter.
+
+*NOTE: If some players know the name of your paper they can make another paper to renamed, the same to the name you made and they can use it to your keycard door lock. So keep your paper safe and private don't let other knew it.*
+
+### Lever Passcode
+
+Lever Passcode needs a specific combinations of input in order to trigger the output (ONLY Gate). This work exactly same as ONLY Gate (see Logic Gates section) but have more inputs. You can use it on your door to forbid anyone to enter.
+
+STEP 1: Build 8 x 4 wall and make inner block different from the outer, for aesthetic design. That is optional the important is you build a wall.
+
+IMAGE
+
+STEP 2: Now place a levers at inner part (6 x 2). Then set up any combination you like.
+
+IMAGE
+
+STEP 3: At the back, place a redstone torch in all blocks where levers are placed.
+
+IMAGE
+
+Let's use 2 different color to make you easily understand it.
+- **Red:** All components place here has to be changed in order to change the password. The components that placed here depend on the combination you set.
+- **Lime**: All components place here doesn't need to change once it placed.
+
+STEP 4: At the top of higher redstone torch place a row of red blocks, then another 2 row of red blocks diagonally going down. And the lastly place a row of red blocks 1 block away below the 3rd row of red block above.
+
+IMAGE
+
+STEP 5: Now for the lime block, place a row of lime blocks like shown in picture.
+
+IMAGE
+
+STEP 6: Place a redstone dust in top row and bottom row of lime blocks.
+
+IMAGE
+
+STEP 7: At the inner lime blocks place a repeater facing to the red block.
+
+IMAGE
+
+STEP 8: Connect the redstone dust like shown in picture.
+
+IMAGE
+
+Now for setting up the password on top.
+
+STEP 9: Place a repeater directly behind in all of the ON levers at the top of 2nd row of red blocks.
+
+IMAGE
+
+STEP 10: Place a redstone torch in all OFF levers attached to a 1st row of red blocks.
+
+IMAGE
+
+Now for setting up the password at the bottom.
+
+STEP 11: Again in all OFF levers place a redstone torch attached to a 3rd row of red blocks.
+
+IMAGE
+
+STEP 12: In all ON levers place a redstone dust on top of 4th row of red blocks.
+Your done in setting up the password, let's head with the door.
+
+IMAGE
+
+STEP 13: In the side dig a hole like shown in the picture with 2 block depth, 2 width and the length is from lime wool going to the wall.
+
+IMAGE
+
+STEP 14: Build shown in the picture, the redstone torch is your output.
+
+IMAGE
+
+STEP 15: Cover it with any of your chosen opaque blocks.
+
+IMAGE
+
+STEP 16: Place 2 iron door at the top of 2 redstone torch.
+
+IMAGE
+
+STEP 17: Build a frame of your iron door.
+
+IMAGE
+
+Your password door is done, your door is close because iron door is the last thing you place so the door doesn't update with redstone torch below. Try to ON then OFF or OFF then ON one of the levers and your door will open.
+
+Turn OFF all the levers to make your password isn't visible.
+
+IMAGE
+
+You can now cover redstone components and start building your house.
+
+### Item Frame Lock
+
+WIP - COMING SOON
+
+This is what I have so far
+```
+Item Frame Lock is a redstone mechanism that uses the combination pattern of item frame for door locking.
+```
