@@ -1198,4 +1198,147 @@ IMAGE
 
 ## Contraptions
 
+#### Piston Extender
+
+The Piston Extender will push and pull a block with two or more spaces instead of one. These examples are stackable ready so you can expand them indefinitely.
+
+#### Horizontal Double Piston Extender
+
+IMAGE
+
+Properties:
+```
+Size: 1 x 6 x 6
+1-Wide, Stackable, Tileable, Seamless
+```
+
+This extender will push and pull a block with two block spaces in a horizontal direction.
+
+#### Vertical Double Piston Extender (Upward)
+
+IMAGE
+
+Properties:
+```
+Size: 1 x 6 x 6
+1-Wide, Stackable, Tileable, Seamless
+```
+
+**Variation:** You can replace obsever on top in the right side with any opaque block but will not become stackable so if you don't need to exapand it you can replace that.
+
+#### Vertical Double Piston Extender (Downward)
+
+IMAGE
+
+Properties:
+```
+Size: 1 x 7 x 4
+1-Wide, Stackable, Tileable, Seamless
+```
+
+**Variation:** You can replace observer at the bottom in the left side with any opaque block but will not become stackable so if you don't need to exapand it you can replace that.
+
+### Control Panel
+
+#### Item Frame Selector
+
+Item frame selector is used to select 8 different output, the ouput is depend on the rotation of item in item frame. At initial placement, output 1 is turn ON rotate it and output 2 is turn ON upto output 8 and then wrapping back to ouput 1.
+
+STEP 1: Place a block then item frame in it and place item on item frame (I prefer arrow though it's like pointing in it's rotation), and then place comparator behind facing away from item frame.
+
+IMAGE
+
+STEP 2: Place 8 blocks 1 block below the front of comparator.
+
+IMAGE
+
+STEP 3: Place a redstone dust in all blocks then a row repeater facing away from blocks.
+
+IMAGE
+
+STEP 4: On top of all repeater place a block then redstone dust on top of these blocks.
+
+IMAGE
+
+STEP 5: Place another block in front of repeater then another repeater on top of these blocks facing away from blocks.
+
+IMAGE
+
+STEP 6: At the front of repeaters place a row block then on top place a row of redstone torch and another row of redstone torch at bottom attached to block.
+
+IMAGE
+
+The redstone torch above are your outputs, as you see the first redstone torch is ON because item frame is at initial placement or in the first rotation.
+
+The image below show the labled of the selector.
+
+IMAGE
+
+### Hidden Input
+
+Hidden input is redstone contraption that let you trigger the output without a visible switch such as button & lever. Instead of using button or lever you can use this to make other won't see your input to prevent others to use that too. This is the best thing to use in building hidden doors to make it fully hidden.
+
+#### Redstone Dust Input
+
+This hidden input uses a redstone dust in order to send a signals to output.
+
+Assume that this is part of your room lime block is where wall of room is placed. Build a thing like picture below, the piston is sticky and the block in front of it is your input.
+
+IMAGE
+
+Now build a wall, place a redstone torch attached to a block directly where your input is.
+
+IMAGE
+
+After you place redstone torch, at inside the sticky piston will retract.
+
+IMAGE
+
+Now it's done your hidden input will trigger output with short pulse, work like a button, if you want to make it work as a lever add a T-Flip Flop at output.
+
+IMAGE
+
+#### Lever Input
+
+A hidden input using a lever should need to place it and flicked it to trigger the output then the lever will automatically drop itself.
+
+IMAGE
+
+Dig 2 block depth where your input is, then place a sticky piston facing upward with redstone dust and a repeater.
+
+IMAGE
+
+Place a block in top of sticky piston and build your wall to cover redstone. And now it's done it's send a short pusle signal to output.
+
+IMAGE
+
+#### Redstone Torch Input
+
+This hidden input uses a redstone torch, when place it will trigger the output and automatically drop itself. This can be place only at below the ceiling.
+
+Red block is your input here where you should place redstone torch, lime is output, block of quartz represent as ceiling and stone brick represent as wall.
+
+This hidden input already have T-Flip Flop so it should work as a lever. If you want to make this hidden input should work as a button you should remove T-Flip Flop.
+
+IMAGE
+
+#### Hoe Input
+
+This input uses hoe to hoe the dirt and trigger the input.
+
+STEP 1: Build like shown in picture, redstone torch place on red block is output and redstone torch place on ground is input
+
+IMAGE
+
+STEP 2: Place a dirt on top of redstone torch input, this is where you need to hoe to trigger output. Then place sticky liston on top of redstone dust near redstone torch facing to input then a block in front of it.
+
+IMAGE
+
+When you hoe the dirt it will turn into farm plot, farm plot is considered as transparent block as a result the redstone torch placed underneath it will not power the redstone dust causing the redstone torch ouput to ON then it power sticky piston and push a block above farm plot causing the farm plot to become dirt again. In this state it will send a short pulse to your output.
+
+STEP 3: Now build a wall to cover redstone components and optionally build a T-Flip Flop in your output to make your input work as a lever.
+
+IMAGE
+
+## Traps Mechanisms
 
