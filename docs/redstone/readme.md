@@ -341,52 +341,52 @@ If you want dispenser continues dispensing items you should need to power it by 
 
 Dispenser can dispense the following items:
 
-Armors, Elytra, Heads
+**Armors, Elytra, Heads**
 - Equips on a player or armor stand within the block the dispenser is facing with empty appropriate armor slot
 
-Carved Pumpkin, Wither Skull
+**Carved Pumpkin, Wither Skull**
 - Placed as blocks. If placement completes the construction of an iron golem, snow golem, or wither, the entity will be created as if constructed by a player.
 
-Arrow, Tipped Arrow
+**Arrow, Tipped Arrow**
 - Fired in the direction where the dispenser is facing.
 
-Battle o' chanting, egg, snow ball, splash potion, lingering potion
+**Battle o' chanting, egg, snow ball, splash potion, lingering potion**
 - Thrown in the direction where the dispenser is facing, as like as how player throw it.
 
-Bone meal
+**Bone meal**
 - Uses bone meal (as fertilizer) on the block the dispenser is facing, if possible. If the block faced does not react to bonemeal, no bone meal is used
 
-Fire Ball
+**Fire Ball**
 - Launches fireball (as if produced by a blaze) in the direction the dispenser is facing.
 
-Flint and Steel
+**Flint and Steel**
 - It place a fire in front of dispenser and reduce the durability of the flint and steel, If there is TNT it will ignites the tnt.
 
-Firework Rocket
+**Firework Rocket**
 - Launches in the direction the dispenser is facing. Can be used to inflict damage if it was crafted with stars.
 
-All types of Minecart
+**All types of Minecart**
 - Placed as entity in the block the dispenser is facing, if the dispenser is facing a type of rails, otherwise dropped.
 
-Boat
+**Boat**
 - Placed as entity in the block the dispenser is facing, if the dispenser is facing water or an empty block above water, otherwise dropped.
 
-Spawn Egg
+**Spawn Egg**
 - Summons a mob in front of the dispenser
 
-TNT
+**TNT**
 - Places and ignites TNT in the block the dispenser is facing.
 
-Trident
+**Trident**
 - Thrown in the direction the dispenser is facing.
 
-Water Bucket, Lava Bucket
+**Water Bucket, Lava Bucket**
 - Places lava or water in the block in which the dispenser is facing (replacing the lava or water bucket in the dispenser with an empty bucket), if the dispenser is facing at block it dropped.
 
-Cod, Salmon, Tropical & Puffer Fish Bucket
+**Cod, Salmon, Tropical & Puffer Fish Bucket**
 - Places a water and summon a fish in the block in which the dispenser is facing, leaving an empty bucket in dispenser.
 
-Empty Bucket
+**Empty Bucket**
 - Collects lava or water source block in which the dispenser is facing, adding the newly filled bucket to an empty slot in the dispenser's inventory.
 
 Other items should only drop
