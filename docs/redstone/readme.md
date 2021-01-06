@@ -1494,7 +1494,7 @@ The lamp post's light is OFF during the day and turns ON when night.
 
 To build this, place a fence how high you want (cobblestone wall at bottom is optional) then redstone lamp at the top, at top of redstone lamp place a daylight sensor and switch to night mode, and then place a trapdoor in all side of redstone lamp and close them.
 
-IMAGE
+![automatic_lamp_post.png](images/automatic_mechanism/automatic_lamp_post.png)
 
 ### Auto-Cooker
 
@@ -1504,19 +1504,19 @@ Auto-Cooker is a mechanisms that will automatically cook or smelt item and store
 
 STEP 1: Place a large chest and place a hopper behind it, connected to chest.
 
-IMAGE
+![auto_cooker0.png](images/automatic_mechanism/auto_cooker/auto_cooker0.png)
 
 STEP 2: On top of hoppers place a furnace and then on side of furnace place a hopper in it's side and on top in both of furnace.
 
-IMAGE
+![auto_cooker1.png](images/automatic_mechanism/auto_cooker/auto_cooker1.png)
 
 STEP 3: On the top of all hoppers place a chests.
 
-IMAGE
+![auto_cooker2.png](images/automatic_mechanism/auto_cooker/auto_cooker2.png)
 
 STEP 4: Cover it and make only furnaces and chests are visible. You can design if you want.
 
-IMAGE
+![auto_cooker3.png](images/automatic_mechanism/auto_cooker/auto_cooker3.png)
 
 Now your auto-cooker mechanism is done. Below, here how it use.
 
@@ -1538,11 +1538,11 @@ This farm will automatically cut a sugar cane when it reach a 3 block high.
 
 This farm is very easy to build, just build what shown in the image below. 
 
-IMAGE
+![reeds_farm.png](images/automatic_mechanism/auto_farm/reeds_farm.png)
 
 This is stackable you can build another directly next to other copies of itself to expand it.
 
-IMAGE
+![reeds_farm_long.png](images/automatic_mechanism/auto_farm/reeds_farm_long.png)
 
 #### Wheat/Carrot/Potato/Betroot Farm
 
@@ -1550,71 +1550,73 @@ This is a semi-automatic farm. If crops is ready to harvest click button and it 
 
 STEP 1: Build two 8 x 4 dirt with 1 block gap at center.
 
-IMAGE
+![wheat_farm0.png](images/automatic_mechanism/auto_farm/wheat_farm0.png)
 
 STEP 2: On either side dig a 1 block depth and place redstone dust along in hole with 1 repeater to extend the current of a redstone dust.
 
-IMAGE
+![wheat_farm1.png](images/automatic_mechanism/auto_farm/wheat_farm1.png)
 
 STEP 3: Cover it with blocks. And build a wall for your farm.
 
-IMAGE
+![wheat_farm2.png](images/automatic_mechanism/auto_farm/wheat_farm2.png)
 
 STEP 4: At the end place a dispenser and put one water bucket inside of each dispenser.
 
-IMAGE
+![wheat_farm3.png](images/automatic_mechanism/auto_farm/wheat_farm3.png)
 
 STEP 5: Continue building wall and design your farm.
 
-IMAGE
+![wheat_farm4.png](images/automatic_mechanism/auto_farm/wheat_farm4.png)
 
 STEP 6: At the back place a repeater facing at dispenser then redstone dust.
 
-IMAGE
+![wheat_farm5.png](images/automatic_mechanism/auto_farm/wheat_farm5.png)
 
 Make sure it's connected from your output.
 
-IMAGE
+![wheat_farm6.png](images/automatic_mechanism/auto_farm/wheat_farm6.png)
 
 STEP 7: Place a chest at center 1 block away.
 
-IMAGE
+![wheat_farm7.png](images/automatic_mechanism/auto_farm/wheat_farm7.png)
 
 STEP 8: Place a hopper behind the chest connected to it. 
 
-IMAGE
+![wheat_farm8.png](images/automatic_mechanism/auto_farm/wheat_farm8.png)
 
 STEP 9: Place a hopper in all front of dirt and connected all at center hopper, do it in both side.
 
-IMAGE
+![wheat_farm9.png](images/automatic_mechanism/auto_farm/wheat_farm9.png)
 
 STEP 10: Pour hole a water in the center.
 
-IMAGE
+![wheat_farm10.png](images/automatic_mechanism/auto_farm/wheat_farm10.png)
 
 STEP 11: Till the dirt with hoe to make a farm plot.
 
-IMAGE
+![wheat_farm11.png](images/automatic_mechanism/auto_farm/wheat_farm11.png)
 
 STEP 12: Place a button in your input.
 
-IMAGE
+![wheat_farm12.png](images/automatic_mechanism/auto_farm/wheat_farm12.png)
 
 STEP 13: Cover the water at center with slabs or any solid blocks to prevent crops stucked in this water.
 
-IMAGE
+![wheat_farm13.png](images/automatic_mechanism/auto_farm/wheat_farm13.png)
 
 STEP 14: Build awall in front to prevent crops from falling.
 
-IMAGE
+![wheat_farm14.png](images/automatic_mechanism/auto_farm/wheat_farm14.png)
 
 You can now plant a crops you can plant wheat, carrot, potato or betroot.
 
-IMAGE
+![wheat_farm15.png](images/automatic_mechanism/auto_farm/wheat_farm15.png)
 
 If crops is ready to harvest click button, then crops will automatically harvest and collect, all will stored at chest.
 
-IMAGE
+![wheat_farm16.png](images/automatic_mechanism/auto_farm/wheat_farm16.png)
+
+![wheat_farm17.png](images/automatic_mechanism/auto_farm/wheat_farm17.png)
 
 Click the button again to make dispenser get water and you can plant crops again.
 
@@ -1624,39 +1626,39 @@ This farm will automatically harvest melon instead of manually breaking them all
 
 STEP 1: Make a water cannal (any length) and till its two side with hoe.
 
-IMAGE
+![melon_farm0.png](images/automatic_mechanism/auto_farm/melon_farm0.png)
 
 STEP 2: Dig the next two side with 2 block depth.
 
-IMAGE
+![melon_farm1.png](images/automatic_mechanism/auto_farm/melon_farm1.png)
 
 STEP 3: Place a sticky pistons facing upward in the hole.
 
-IMAGE
+![melon_farm2.png](images/automatic_mechanism/auto_farm/melon_farm2.png)
 
 STEP 4: Cover the pistons with dirt.
 
-IMAGE
+![melon_farm0.png](images/automatic_mechanism/auto_farm/melon_farm0.png)
 
 STEP 5: Dig the next side with 1 block depth, extend 1 block in front and then place a redstone dust.
 
-IMAGE
+![melon_farm3.png](images/automatic_mechanism/auto_farm/melon_farm3.png)
 
 STEP 6: Cover the redstone dust with block and build a wall. And place two button in both side of wall.
 
-IMAGE
+![melon_farm4.png](images/automatic_mechanism/auto_farm/melon_farm4.png)
 
 STEP 7: Place a wall, slabs or any other blocks in front of farm plot to prevent melon/pumpkin to bear fruit there.
 
-IMAGE
+![melon_farm5.png](images/automatic_mechanism/auto_farm/melon_farm5.png)
 
 STEP 8: Now plant a melon/pumpkin seeds in all farm plot.
 
-IMAGE
+![melon_farm6.png](images/automatic_mechanism/auto_farm/melon_farm6.png)
 
 If crops bear fruits and ready to harvest click the button to automatically harvest them all.
 
-IMAGE
+![melon_farm7.png](images/automatic_mechanism/auto_farm/melon_farm7.png)
 
 ### Auto-Refiller Cauldron
 
@@ -1664,23 +1666,23 @@ This mechanism will automatically refill cauldron with water when emptied (will 
 
 STEP 1: Build a simple horizontal double piston extender like shown in picture with cauldron in front of piston.
 
-IMAGE
+![auto_refiller_cauldron_0.png](images/automatic_mechanism/auto_refiller_cauldron/auto_refiller_cauldron_0.png)
 
 STEP 2: Build a wall in front of it and leave a hole in front of cauldron.
 
-IMAGE
+![auto_refiller_cauldron_1.png](images/automatic_mechanism/auto_refiller_cauldron/auto_refiller_cauldron_1.png)
 
 STEP 3: At the back, place a blocks that use to hold water at top of cauldron, then pour it a water.
 
-IMAGE
+![auto_refiller_cauldron_2.png](images/automatic_mechanism/auto_refiller_cauldron/auto_refiller_cauldron_2.png)
 
 STEP 4: Place a redstone torch to power the extender, this will push out the cauldron in wall.
 
-IMAGE
+![auto_refiller_cauldron_3.png](images/automatic_mechanism/auto_refiller_cauldron/auto_refiller_cauldron_3.png)
 
 STEP 5: Behind where redstone torch is placed, place a button. You can optionally replace block where button is placed with different block for aesthetic design.
 
-IMAGE
+![auto_refiller_cauldron_4.png](images/automatic_mechanism/auto_refiller_cauldron/auto_refiller_cauldron_4.png)
 
 ## Hidden Mechanisms
 
