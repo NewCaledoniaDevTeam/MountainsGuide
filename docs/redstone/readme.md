@@ -1354,7 +1354,7 @@ This trap will automatically lock or stuck mob in a door cage when they step on.
 
 To build this simply place pressure plates on ground and place 4 iron doors in a spiral pattern around the pressure plate.
 
-IMAGE
+![door_cage_trap.png](images/traps_mechanism/mob_traps/door_cage_trap.png)
 
 #### Piston Trap
 
@@ -1362,23 +1362,23 @@ Any mob won't get out and stucked in area when step on the area where trap is, y
 
 STEP 1: Dig an outline of square or rectangular shape with 1 block depth. Don't dig a block in corner.
 
-IMAGE
+![piston_traps0.png](images/traps_mechanism/mob_traps/piston_traps0.png)
 
 STEP 2: Place piston facing upward in all hole.
 
-IMAGE
+![piston_traps1.png](images/traps_mechanism/mob_traps/piston_traps1.png)
 
 STEP 3: Place a pressure plates at inner side of pistons.
 
-IMAGE
+![piston_traps2.png](images/traps_mechanism/mob_traps/piston_traps2.png)
 
 STEP 4: Place a slabs or blocks in top of all pressure plates with 1 block gap from pressure plates.
 
-IMAGE
+![piston_traps3.png](images/traps_mechanism/mob_traps/piston_traps3.png)
 
 If mob get inside of this area they will never get out because of pressure plate make piston to extend and block their way out.
 
-IMAGE
+![piston_traps4.png](images/traps_mechanism/mob_traps/piston_traps4.png)
 
 ### Single-use Traps
 
@@ -1392,7 +1392,7 @@ Players won't think it's a trap they will think that pressure plates is use for 
 
 Place a TNT under the block where pressure plate is placed, you can place how many TNT you want but make sure all will explode.
 
-IMAGE
+![tnt_house_trap.png](images/traps_mechanism/singleuse_traps/tnt_house_trap.png)
 
 #### Ore TNT Trap
 
@@ -1400,27 +1400,27 @@ This trap will blown up a player who will mine an ore. If ore is completely mine
 
 STEP 1: Find a cave you want to build this.
 
-IMAGE
+![ore_trap0.png](images/traps_mechanism/singleuse_traps/ore_trap0.png)
 
 STEP 2: Place ore (i.e diamond ore), replace it in any stone.
 
-IMAGE
+![ore_trap1.png](images/traps_mechanism/singleuse_traps/ore_trap1.png)
 
 STEP 3: At the back of ore place a redstone torch attached to ore.
 
-IMAGE
+![ore_trap2.png](images/traps_mechanism/singleuse_traps/ore_trap2.png)
 
 STEP 4: Connect a redstone torch to your output use another redstone torch to invert signal, your output should be off.
 
-IMAGE
+![ore_trap3.png](images/traps_mechanism/singleuse_traps/ore_trap3.png)
 
 STEP 5: Now place TNT connected at output under the ground where a player will stand when mining ore.
 
-IMAGE
+![ore_trap4.png](images/traps_mechanism/singleuse_traps/ore_trap4.png)
 
 STEP 6: Cover the TNT and redstone component with stones, keep it look like naturally remove torches so player will think that there's no one was here.
 
-IMAGE
+![ore_trap5.png](images/traps_mechanism/singleuse_traps/ore_trap5.png)
 
 #### Cake TNT Trap
 
@@ -1428,27 +1428,27 @@ This trap will blown anyone who will eat a cake.
 
 STEP 1: Dig a hole in ground any length and width and at least 2 block depth.
 
-IMAGE
+![tnt_cake_trap0.png](images/traps_mechanism/singleuse_traps/tnt_cake_trap0.png)
 
 STEP 2: Fill a hole with TNT, you can place TNT as many as you want.
 
-IMAGE
+![tnt_cake_trap1.png](images/traps_mechanism/singleuse_traps/tnt_cake_trap1.png)
 
 STEP 3: Place a redstone dust in top of tnt then on top it place a block for a cake.
 
-IMAGE
+![tnt_cake_trap2.png](images/traps_mechanism/singleuse_traps/tnt_cake_trap2.png)
 
 STEP 4: Now build this contraption, make sure the repeater is the last thing you place to prevent observer sending signals to repeater and activate TNT.
 
-IMAGE
+![tnt_cake_trap3.png](images/traps_mechanism/singleuse_traps/tnt_cake_trap3.png)
 
 STEP 5: Cover the tnt with a block for floor.
 
-IMAGE
+![tnt_cake_trap4.png](images/traps_mechanism/singleuse_traps/tnt_cake_trap4.png)
 
 STEP 6: Build a wall to cover redstone components.
 
-IMAGE
+![tnt_cake_trap5.png](images/traps_mechanism/singleuse_traps/tnt_cake_trap5.png)
 
 ### Multiuse Traps
 
@@ -1460,31 +1460,31 @@ In this trap any player who open a chest will fell down in lava.
 
 STEP 1: Dig down a hole 2 width 3 length and 3 depth.
 
-IMAGE
+![chest_trap0.png](images/traps_mechanism/multiuse_traps/chest_trap0.png)
 
 STEP 2: On both side of hole dig another 2 x 3 hole and 1 block depth.
 
-IMAGE
+![chest_trap1.png](images/traps_mechanism/multiuse_traps/chest_trap1.png)
 
 STEP 3: Place a sticky pistons facing at center in both of sides, then a block. And change a block at the end.
 
-IMAGE
+![chest_trap2.png](images/traps_mechanism/multiuse_traps/chest_trap2.png)
 
 STEP 4: Place a trapped chest at the end of hole and place redstone dust one block depth behind a chest. Then repeater facing away at redstone dust then redstone torch on top of block where repeater is facing.
 
-IMAGE
+![chest_trap3.png](images/traps_mechanism/multiuse_traps/chest_trap3.png)
 
 STEP 5: Pour a hole with lava. Here player will fall when chest is open.
 
-IMAGE
+![chest_trap4.png](images/traps_mechanism/multiuse_traps/chest_trap4.png)
 
 STEP 6: Connect redstone torch to all sticky pistons with redstone dust.
 
-IMAGE
+![chest_trap5.png](images/traps_mechanism/multiuse_traps/chest_trap5.png)
 
 STEP 7: Cover the redstone components. Make sure nothing is visible.
 
-IMAGE
+![chest_trap6.png](images/traps_mechanism/multiuse_traps/chest_trap6.png)
 
 ## Automatic Mechanisms
 
