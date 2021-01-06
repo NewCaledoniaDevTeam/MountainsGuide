@@ -992,7 +992,9 @@ RS latches can be built in a number of ways:
 - Two NOR gates can be linked so that whichever is lit, the other will be off. The RS NOR latch is the "original" RS latch, and still among the smallest memory devices that can be made in vanilla Minecraft. While they can be built with just torches and redstone dust, repeaters can also be used. Many of these designs have "duplex I/O" - the same locations can be used to read or set the latch state.
 - It is also possible to construct an RS NAND latch, using NAND gates instead of NOR gates. These will be larger and more complex than an RS NOR latch, but may be useful for specialized purposes. Their inputs are inverted (see below for details).
 - Other RS latches can be created by fitting an "input sustaining circuit" with a reset switch, say by adding a pair of NOT gates or a piston, placed so as to interrupt the circuit when triggered. Such a construction can be nearly as compact as an RS NOR latch (and often with better I/O isolation and/or timing), but they will usually not have a natural Qi output.
-rg.rsLatch.text7=-Other devices can also be involved. Pistons can be used to physically toggle a block's location, while hoppers or droppers can pass around an item entity. These circuits can be very fast and small, with little redstone dust.
+- Other devices can also be involved. Pistons can be used to physically toggle a block's location, while hoppers or droppers can pass around an item entity. These circuits can be very fast and small, with little redstone dust.
+
+![rs_latch_table.png](images/memory_circuit/rs_latch_table.png)
 
 #### RS-NOR Latches
 
@@ -1000,15 +1002,15 @@ Designs **A** and **B** are the most fundamental RS-NOR latches. In both cases, 
 
 Design A:
 
-IMAGE
+![rs_nor_latch0.png](images/memory_circuit/rs_nor_latch0.png)
 
 Design B:
 
-IMAGE
+![rs_nor_latch1.png](images/memory_circuit/rs_nor_latch1.png)
 
 Design A':
 
-IMAGE
+![rs_nor_latch2.png](images/memory_circuit/rs_nor_latch2.png)
 
 ### D LATCH
 
@@ -1036,7 +1038,7 @@ The letter "T" is for "toggles". Whenever the input changes from OFF to ON, the 
 
 These examples is a repeater locking method, since it uses a repeater they are completely silent. These example work the same but with different properties.
 
-IMAGE
+![repeater_tff_0.png](images/memory_circuit/repeater_tff_0.png)
 
 Properties:
 ```
@@ -1044,7 +1046,7 @@ Size: 4 x 5 x 1
 Circuit Delay: 5 Ticks
 ```
 
-IMAGE
+![repeater_tff_1.png](images/memory_circuit/repeater_tff_1.png)
 
 Properties:
 ```
@@ -1054,7 +1056,7 @@ Circuit Delay: 3 Ticks
 
 #### Grizdale's T-Flip Flop
 
-IMAGE
+![grizdales_tff.png](images/memory_circuit/grizdales_tff.png)
 
 Redstone Torch is the output. Dropper at the bottom is facing upward, dropper at top facing at comparator and hopper is connected at lower dropper. Once built, place a single item inside of either containers and it will work as a T Flip-flop, with the item cycling between the two droppers.
 
