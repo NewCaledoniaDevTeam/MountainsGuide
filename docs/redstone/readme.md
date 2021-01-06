@@ -1082,11 +1082,11 @@ An ABBA circuit has one input and multiple outputs. When the input turns on, the
 All of these designs can be extended indefinitely.
 Horizontal ABBA
 
-IMAGE
+![horizontal_ABBA.png](images/miscellaneous_circuits/horizontal_ABBA.png)
 
 Vertical ABBA
 
-IMAGE
+![vertical_ABBA.png](images/miscellaneous_circuits/vertical_ABBA.png)
 
 ### Multiplexer
 
@@ -1096,7 +1096,7 @@ For these designs, the inputs are labeled A and B. X is the "control" input: whe
 
 #### AND-Gate Mux
 
-IMAGE
+![AND_gate_mux.png](images/miscellaneous_circuits/AND_gate_mux.png)
 
 If X (control input) is off, A input can control the output to toggle on or off but the B input is suppressed meaning you can't use this input to control output.
 
@@ -1112,7 +1112,7 @@ Silent
 
 #### Dust-Cut Mux
 
-IMAGE
+![dust_cut.png](images/miscellaneous_circuits/dust_cut.png)
 
 While the block is moving, both A and B can pass through at the same time; in practice, this just means the transition takes 1.5 ticks when going from a high signal to a low, and instantly for all other cases.
 
@@ -1124,7 +1124,7 @@ Circuit Delay: 0 Ticks
 
 #### Piston Mux
 
-IMAGE
+![piston_mux.png](images/miscellaneous_circuits/piston_mux.png)
 
 If X (control input) is off, A can control output but B is suppressed. If X is on, B can control output but A is suppressed.
 
@@ -1137,7 +1137,7 @@ Flat
 
 #### Repeater Lock Mux
 
-IMAGE
+![repeater_lock_mux.png](images/miscellaneous_circuits/repeater_lock_mux.png)
 
 his multiplexer control input split into two with inverted circuit that connected to A and B input allowing one repeater output to lock but do not lock both repeater output at the same time.
 
@@ -1158,7 +1158,7 @@ For these designs, the red block is your input and pink block is the selector. T
 
 If the selector is OFF, the input can trigger the output B, if selector is on the input can trigger the output A.
 
-IMAGE
+![AND_gate_demux.png](images/miscellaneous_circuits/AND_gate_demux.png)
 
 Properties:
 ```
@@ -1169,7 +1169,7 @@ Silent
 
 #### Piston Demux
 
-IMAGE
+![piston_demux.png](images/miscellaneous_circuits/piston_demux.png)
 
 Properties:
 ```
@@ -1188,7 +1188,7 @@ Outputs either power level 1 or 3 while on, power level 0 while off.
 
 See image below to build this, the dropper contain 1 stackable item and 1 non-stackable item.
 
-IMAGE
+![2-RNG.png](images/miscellaneous_circuits/2-RNG.png)
 
 When the input turns on, the dropper will randomly choose to push either the stackable item or the non-stackable item into the hopper, causing the comparator to output either power level 1 or 3.
 
@@ -1196,7 +1196,7 @@ When the input turns on, the dropper will randomly choose to push either the sta
 
 The redstone block will pull either by left sticky piston or right sticky piston, causing the redstone block to power either left repeater or right repeater.
 
-IMAGE
+![2way_selector.png](images/miscellaneous_circuits/2way_selector.png)
 
 ## Contraptions
 
@@ -2036,7 +2036,7 @@ The step by step tutorial for building redstone elevator is not yet currently fi
 
 To watch the video search his channel on YouTube "Vechrozilator" then go to playlist redstone creation and find it or simply search Vechrozilator's elevator.
 
-You can visit this link: https://youtu.be/o4krM-8HVDs
+You can visit this link: [https://youtu.be/o4krM-8HVDs](https://youtu.be/o4krM-8HVDs)
 
 ## Lock Mechanism
 
