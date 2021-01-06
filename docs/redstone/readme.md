@@ -1206,7 +1206,7 @@ The Piston Extender will push and pull a block with two or more spaces instead o
 
 #### Horizontal Double Piston Extender
 
-IMAGE
+![2x2_horizontal.png](images/contraptions/piston_extender/2x2_horizontal.png)
 
 Properties:
 ```
@@ -1218,7 +1218,7 @@ This extender will push and pull a block with two block spaces in a horizontal d
 
 #### Vertical Double Piston Extender (Upward)
 
-IMAGE
+![2x2_vertical_upward.png](images/contraptions/piston_extender/2x2_vertical_upward.png)
 
 Properties:
 ```
@@ -1230,7 +1230,7 @@ Size: 1 x 6 x 6
 
 #### Vertical Double Piston Extender (Downward)
 
-IMAGE
+![2x2_vertical_downward.png](images/contraptions/piston_extender/2x2_vertical_downward.png)
 
 Properties:
 ```
@@ -1248,33 +1248,33 @@ Item frame selector is used to select 8 different output, the ouput is depend on
 
 STEP 1: Place a block then item frame in it and place item on item frame (I prefer arrow though it's like pointing in it's rotation), and then place comparator behind facing away from item frame.
 
-IMAGE
+![item_frame_selector0.png](images/contraptions/control_panel/item_frame_selector0.png)
 
 STEP 2: Place 8 blocks 1 block below the front of comparator.
 
-IMAGE
+![item_frame_selector1.png](images/contraptions/control_panel/item_frame_selector1.png)
 
 STEP 3: Place a redstone dust in all blocks then a row repeater facing away from blocks.
 
-IMAGE
+![item_frame_selector2.png](images/contraptions/control_panel/item_frame_selector2.png)
 
 STEP 4: On top of all repeater place a block then redstone dust on top of these blocks.
 
-IMAGE
+![item_frame_selector3.png](images/contraptions/control_panel/item_frame_selector3.png)
 
 STEP 5: Place another block in front of repeater then another repeater on top of these blocks facing away from blocks.
 
-IMAGE
+![item_frame_selector4.png](images/contraptions/control_panel/item_frame_selector4.png)
 
 STEP 6: At the front of repeaters place a row block then on top place a row of redstone torch and another row of redstone torch at bottom attached to block.
 
-IMAGE
+![item_frame_selector5.png](images/contraptions/control_panel/item_frame_selector5.png)
 
 The redstone torch above are your outputs, as you see the first redstone torch is ON because item frame is at initial placement or in the first rotation.
 
 The image below show the labled of the selector.
 
-IMAGE
+![item_frame_selector6.png](images/contraptions/control_panel/item_frame_selector6.png)
 
 ### Hidden Input
 
@@ -1286,33 +1286,33 @@ This hidden input uses a redstone dust in order to send a signals to output.
 
 Assume that this is part of your room lime block is where wall of room is placed. Build a thing like picture below, the piston is sticky and the block in front of it is your input.
 
-IMAGE
+![redstone_dust_input1.png](images/contraptions/hidden_input/redstone_dust_input1.png)
 
 Now build a wall, place a redstone torch attached to a block directly where your input is.
 
-IMAGE
+![redstone_dust_input2.png](images/contraptions/hidden_input/redstone_dust_input2.png)
 
 After you place redstone torch, at inside the sticky piston will retract.
 
-IMAGE
+![redstone_dust_input3.png](images/contraptions/hidden_input/redstone_dust_input3.png)
 
 Now it's done your hidden input will trigger output with short pulse, work like a button, if you want to make it work as a lever add a T-Flip Flop at output.
 
-IMAGE
+![redstone_dust_input4.png](images/contraptions/hidden_input/redstone_dust_input4.png)
 
 #### Lever Input
 
 A hidden input using a lever should need to place it and flicked it to trigger the output then the lever will automatically drop itself.
 
-IMAGE
+![lever_input1.png](images/contraptions/hidden_input/lever_input1.png)
 
 Dig 2 block depth where your input is, then place a sticky piston facing upward with redstone dust and a repeater.
 
-IMAGE
+![lever_input2.png](images/contraptions/hidden_input/lever_input2.png)
 
 Place a block in top of sticky piston and build your wall to cover redstone. And now it's done it's send a short pusle signal to output.
 
-IMAGE
+![lever_input3.png](images/contraptions/hidden_input/lever_input3.png)
 
 #### Redstone Torch Input
 
@@ -1322,7 +1322,7 @@ Red block is your input here where you should place redstone torch, lime is outp
 
 This hidden input already have T-Flip Flop so it should work as a lever. If you want to make this hidden input should work as a button you should remove T-Flip Flop.
 
-IMAGE
+![torch_input.png](images/contraptions/hidden_input/torch_input.png)
 
 #### Hoe Input
 
@@ -1330,17 +1330,17 @@ This input uses hoe to hoe the dirt and trigger the input.
 
 STEP 1: Build like shown in picture, redstone torch place on red block is output and redstone torch place on ground is input
 
-IMAGE
+![hoe_input0.png](images/contraptions/hidden_input/hoe_input0.png)
 
 STEP 2: Place a dirt on top of redstone torch input, this is where you need to hoe to trigger output. Then place sticky liston on top of redstone dust near redstone torch facing to input then a block in front of it.
 
-IMAGE
+![hoe_input1.png](images/contraptions/hidden_input/hoe_input1.png)
 
 When you hoe the dirt it will turn into farm plot, farm plot is considered as transparent block as a result the redstone torch placed underneath it will not power the redstone dust causing the redstone torch ouput to ON then it power sticky piston and push a block above farm plot causing the farm plot to become dirt again. In this state it will send a short pulse to your output.
 
 STEP 3: Now build a wall to cover redstone components and optionally build a T-Flip Flop in your output to make your input work as a lever.
 
-IMAGE
+![hoe_input2.png](images/contraptions/hidden_input/hoe_input2.png)
 
 ## Traps Mechanisms
 
