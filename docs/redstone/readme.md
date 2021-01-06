@@ -622,15 +622,15 @@ Sometimes repeater is use instead of redstone dust even the delay doesn't matter
 
 Do you wonder why this block is need in contraption what's the uses of this block in the contraption?
 
-Non-Movable Blocks
+**Non-Movable Blocks**
 - Non-movable blocks (i.e obsidian) maybe used to prevent pistons to push it or stick to the slime blocks or honey blocks, example the elevator it's uses obsidian to prevent slime block to move it.
 
-Transparent Blocks
+**Transparent Blocks**
 - Maybe transparent block is used for upwiring circuit
 - Maybe it is use for path of redstone dust to make other components shouldn't affect the wiring (i.e there is redstone torch beneath the block where redstone dust is placed).
 - Maybe a diode circuit without delay is required in contraption
 
-Analyze the circuit where the circuit goes when input is trigger, how are every redstone components react to the redstone signals.
+**Analyze the circuit where the circuit goes when input is trigger, how are every redstone components react to the redstone signals.**
 - Why repeater ticks are set like this?
 - When you trigger the input what mechanism components should be power first and why it's should need to power first?
 
