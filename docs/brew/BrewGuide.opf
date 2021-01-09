@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">5</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">ffded5c7-e82f-4d68-ac5b-daadf445655f</dc:identifier>
+        <dc:title>The Mountain's Guide: Brewing Guide</dc:title>
+        <dc:creator opf:file-as="Top, Mountain" opf:role="aut">Mountain Top</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (4.13.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2021-01-09T06:00:00+00:00</dc:date>
+        <dc:publisher>Mountain Top</dc:publisher>
+        <dc:language>eng</dc:language>
+        <dc:subject>Teaching &amp; Learning</dc:subject>
+        <meta content="{&quot;Mountain Top&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="The Mountain's Guide" name="calibre:series"/>
+        <meta content="1" name="calibre:series_index"/>
+        <meta content="2021-01-09T23:21:20.438000+00:00" name="calibre:timestamp"/>
+        <meta content="Mountain's Guide: Brewing Guide, The" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="Mountain's Guide_ Brewing Guide, The - Mountain Top.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>
