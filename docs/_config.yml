@@ -10,5 +10,3 @@ google_site_verification: 0zuWIkB3Ldo2MPpwfLTnPQ0Uk6xHb_khG_l5Jpj9d58
 
 plugins:
   - jekyll-seo-tag
-  - liquid_reading_time
-  - searchyll 
