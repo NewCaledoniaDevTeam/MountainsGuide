@@ -2,7 +2,7 @@ theme: jekyll-theme-minimal
 logo: mountain.top.jpg
 show_downloads: true
 title: The Mountain's Guide
-favicon: /assets/favicon.ico 
+favicon: favicon.ico 
 name                     : &name "Mountain Top"
 description              : &description "Minecraft Bedrock Guides brought by Mountain Top"
 #teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
