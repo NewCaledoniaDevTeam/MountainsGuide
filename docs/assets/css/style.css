@@ -86,10 +86,6 @@ ul.downloads {
     border: none;
 }
 
-.downloads a {
-    color: #404040;
-}
-
 .downloads a strong {
     color: #ffffff;
 }
