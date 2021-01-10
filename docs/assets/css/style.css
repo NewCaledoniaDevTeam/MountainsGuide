@@ -94,12 +94,13 @@ ul.downloads {
     border-right: 1px solid #181818;
 }
 
-
-element.style {
-}
 header ul {
     background: none;
     border: none;
+}
+
+header ul:hover {
+    color: #404040;
 }
 
 html {
