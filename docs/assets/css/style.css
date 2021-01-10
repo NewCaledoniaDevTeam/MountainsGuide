@@ -22,7 +22,7 @@ a {
 }
 
 a:hover,a:focus {
-    color: #a8a8a8;
+    color: #6e6d6d;
 }
 
 a small {
@@ -59,6 +59,16 @@ th {
 header ul {
     background: #f4f4f4;
     border: 1px solid #e0e0e0;
+}
+
+ul.downloads {
+    list-style: none;
+    height: 40px;
+    padding: 0;
+    background: #f4f4f4;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    width: 270px
 }
 
 header li {
