@@ -90,7 +90,7 @@ ul.downloads {
     color: #ffffff;
 }
 
-header li {
+.downloads li {
     border-right: 1px solid #181818;
 }
 
