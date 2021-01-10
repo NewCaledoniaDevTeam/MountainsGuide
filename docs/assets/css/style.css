@@ -96,6 +96,10 @@ header ul a:hover {
     color: #404040;
 }
 
+.downloads strong a:hover {
+    color: #b3b3b3;
+}
+
 html {
   --scrollbarBG: #404040;
   --thumbBG: #181818;
