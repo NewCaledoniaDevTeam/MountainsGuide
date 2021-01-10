@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-logo: mountain.top.jpg
+logo: /assets/img/mountain.top.jpg
 show_downloads: true
 title: The Mountain's Guide
 favicon: favicon.ico 
