@@ -152,6 +152,10 @@ pre.highlight::-webkit-scrollbar-thumb {
         border: none;
     }
     
+    .subpages {
+    visibility: none;
+    }
+    
 @media print {
     body {
         padding: 0.4in;
