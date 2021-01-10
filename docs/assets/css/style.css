@@ -61,10 +61,6 @@ header ul {
     border: 1px solid #e0e0e0;
 }
 
-header li {
-    border-right: 1px solid #e0e0e0;
-}
-
 header ul a {
     color: #676767;
 }
@@ -100,6 +96,10 @@ ul.downloads {
 
 .downloads a strong {
     color: #ffffff;
+}
+
+header li {
+    border-right: 1px solid #181818;
 }
 
 @media print, screen and (max-width: 960px) {
