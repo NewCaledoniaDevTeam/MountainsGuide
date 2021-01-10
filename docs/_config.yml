@@ -6,7 +6,7 @@ favicon: favicon.ico
 name                     : &name "Mountain Top"
 description              : &description "Minecraft Bedrock Guides brought by Mountain Top"
 #teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-#google_site_verification :
+google_site_verification: 0zuWIkB3Ldo2MPpwfLTnPQ0Uk6xHb_khG_l5Jpj9d58
 
 plugins:
   - jekyll-seo-tag
