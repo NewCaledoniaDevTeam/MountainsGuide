@@ -96,7 +96,7 @@ header ul a:hover {
     color: #404040;
 }
 
-.downloads strong a:hover {
+.downloads a:hover strong{
     color: #b3b3b3;
 }
 
