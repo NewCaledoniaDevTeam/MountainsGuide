@@ -94,6 +94,14 @@ ul.downloads {
     border-right: 1px solid #181818;
 }
 
+
+element.style {
+}
+header ul {
+    background: none;
+    border: none;
+}
+
 html {
   --scrollbarBG: #404040;
   --thumbBG: #181818;
