@@ -1,6 +1,6 @@
 # Mountain Top's Guide
 
-![Mountain Top Logo](mountain.top.jpg)
+![Mountain Top Logo](docs/assets/img/mountain.top.jpg)
 
 This in guide you will find:
 
