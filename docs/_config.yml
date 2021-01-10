@@ -2,3 +2,7 @@ theme: jekyll-theme-minimal
 logo: mountain.top.jpg
 show_downloads: true
 title: The Mountain's Guide
+#name                     : &name "Your Name"
+#description              : &description "personal description"
+#teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+#google_site_verification :
