@@ -102,16 +102,16 @@ html {
   --scrollbarBG: #404040;
   --thumbBG: #181818;
 }
-body::-webkit-scrollbar {
+pre.highlight::-webkit-scrollbar {
   width: 15px;
 }
-body {
+pre.highlight {
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
-body::-webkit-scrollbar-track {
+pre.highlight::-webkit-scrollbar-track {
   background: var(--scrollbarBG);
 }
-body::-webkit-scrollbar-thumb {
+pre.highlight::-webkit-scrollbar-thumb {
   background-color: var(--thumbBG) ;
   border-radius: 6px;
   border: 3px solid var(--scrollbarBG);
