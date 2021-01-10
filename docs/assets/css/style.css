@@ -26,6 +26,10 @@ a:hover small {
     color: #fffff;
 }
 
+.highlight {
+background-color: #282828;
+}
+
 code,pre {
     font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
     color: #ffffff;
@@ -92,6 +96,25 @@ ul.downloads {
 
 .downloads li {
     border-right: 1px solid #181818;
+}
+
+html {
+  --scrollbarBG: #404040;
+  --thumbBG: #181818;
+}
+body::-webkit-scrollbar {
+  width: 15px;
+}
+body {
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
 }
 
 @media print, screen and (max-width: 960px) {
