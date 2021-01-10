@@ -60,7 +60,7 @@
             {% endif %}
         </header>
         <section>
-
+            <p>This article will take {{ content | reading_time | pluralize: "minute" }} to read.</p>
             {{ content }}
 
         </section>
