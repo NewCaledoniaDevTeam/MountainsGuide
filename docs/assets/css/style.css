@@ -97,9 +97,14 @@ ul.downloads {
 header ul {
     background: none;
     border: none;
+    color: #727272;
 }
 
-header ul:hover {
+header ul a {
+    color: #b3b3b3:
+}
+
+header ul a:hover {
     color: #404040;
 }
 
