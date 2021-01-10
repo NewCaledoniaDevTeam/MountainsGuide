@@ -147,13 +147,22 @@ pre.highlight::-webkit-scrollbar-thumb {
   border: 3px solid var(--scrollbarBG);
 }
 
+@media (max-width: 1400px) {
+    section {
+        border: none;
+    }
+    
+    .subpages {
+    visibility: hidden;
+    }
+
 @media print, screen and (max-width: 960px) {
     section {
         border: none;
     }
     
     .subpages {
-    visibility: none;
+    visibility: hidden;
     }
     
 @media print {
