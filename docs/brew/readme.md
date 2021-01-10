@@ -123,10 +123,14 @@ Cures (Medicine) are brewed from awkward potions using certain elements. These r
 ## Downloads
 
 * [Portable Document Format (pdf)](https://newcaledoniadevteam.github.io/MountainsGuide/brew/BrewGuide.pdf)
-* [EPUB Publication(epub)](https://newcaledoniadevteam.github.io/MountainsGuide/brew/BrewGuide.epub)
+* [EPUB Publication (epub)](https://newcaledoniadevteam.github.io/MountainsGuide/brew/BrewGuide.epub)
 * [Markdown (md)](https://newcaledoniadevteam.github.io/MountainsGuide/brew/readme.md)
 * [Mircosoft Word (docx)](https://newcaledoniadevteam.github.io/MountainsGuide/brew/BrewGuide.docx)
 * [Rich Text Format (rtf)](https://newcaledoniadevteam.github.io/MountainsGuide/brew/BrewGuide.rtf)
+* [Mobipocket (mobi)](https://newcaledoniadevteam.github.io/MountainsGuide/brew/BrewGuide.mobi)
+* [Open Package Format (opf)](https://newcaledoniadevteam.github.io/MountainsGuide/brew/BrewGuide.opf)
+* [Comic Book Zip (cbz)](https://newcaledoniadevteam.github.io/MountainsGuide/brew/BrewGuide.cbz)
+* [Amazon Word](https://newcaledoniadevteam.github.io/MountainsGuide/brew/BrewGuide.azw3)
 
 Minecraft Bedrock Guides brought and maintained by MountainTop, an New Caledonia Company.
 
