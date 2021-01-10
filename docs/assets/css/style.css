@@ -61,16 +61,6 @@ header ul {
     border: 1px solid #e0e0e0;
 }
 
-ul.downloads {
-    list-style: none;
-    height: 40px;
-    padding: 0;
-    background: #f4f4f4;
-    border-radius: 5px;
-    border: 1px solid #e0e0e0;
-    width: 270px
-}
-
 header li {
     border-right: 1px solid #e0e0e0;
 }
@@ -99,7 +89,18 @@ hr {
     background: #e5e5e5;
 }
 
+ul.downloads {
+    background: #181818;
+    border: none;
+}
 
+.downloads a {
+    color: #404040;
+}
+
+.downloads a strong {
+    color: #ffffff;
+}
 
 @media print, screen and (max-width: 960px) {
     section {
