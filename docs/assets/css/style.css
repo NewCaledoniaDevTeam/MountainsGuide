@@ -147,7 +147,7 @@ pre.highlight::-webkit-scrollbar-thumb {
   border: 3px solid var(--scrollbarBG);
 }
 
-@media (max-width: 1400px) {
+@media screen and (max-width: 960px) {
     section {
         border: none;
     }
