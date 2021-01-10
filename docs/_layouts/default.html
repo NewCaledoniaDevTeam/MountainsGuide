@@ -36,7 +36,7 @@
             <h1><a href="{{ " " | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
             {% if site.logo %}
-            <a href="{{ " " | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" class="logo"/></a> {% endif %}
+            <div class="outer-logo"><a href="{{ " " | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" class="logo"/></a></div> {% endif %}
 
 
             <p>{{ site.description | default: site.github.project_tagline }}</p>
