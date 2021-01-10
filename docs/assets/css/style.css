@@ -100,8 +100,32 @@ header ul a:hover {
     color: #b3b3b3;
 }
 
-.logo:hover {
-      filter: blur(3px);
+.outer-logo {
+  position: relative;
+  display: inline-block;
+  display: inline-block;
+
+}
+
+.outer-logo > img {
+  vertical-align: middle;
+
+}
+
+.outer-logo::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.outer-logo:hover::before {
+  opacity: 0.50;
 }
 
 html {
