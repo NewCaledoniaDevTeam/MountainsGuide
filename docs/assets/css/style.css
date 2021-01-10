@@ -158,8 +158,8 @@ pre.highlight::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 600px) {
-  subpages {
-    visibility: visible;
+  .subpages {
+    visibility: visible !important;
   }
 }
     
