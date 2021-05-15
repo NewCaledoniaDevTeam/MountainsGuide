@@ -1,6 +1,8 @@
 # Mountain Top's Guide
 
-![Mountain Top Logo](docs/assets/img/mountain.top.jpg)
+<!--![Mountain Top Logo](docs/assets/img/mountain.top.jpg)-->
+
+<img src="docs/assets/img/mountain.top.jpg" width="120px" height="120px">
 
 This in guide you will find:
 
